@@ -1,4 +1,5 @@
-トルク測定用にデバッグオプションを設定
+触読デモサンプル　初期FWにトルク測定用のデバッグオプションを追加
+
 ①　TMR2_Interrupt_SPK
 ②　SetMotorStartSPK
 ③  SetDataTRISxWork_SPK_OPEN
