@@ -1,0 +1,7 @@
+トルク測定用にデバッグオプションを設定
+①　TMR2_Interrupt_SPK
+②　SetMotorStartSPK
+③  SetDataTRISxWork_SPK_OPEN
+
+触読ON　SWで励磁ON
+SPK有り無しSWで励磁中にSPK有り無し選択
