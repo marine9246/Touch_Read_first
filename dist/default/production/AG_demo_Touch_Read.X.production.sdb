@@ -1,0 +1,1674 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF1509 ]
+[d frameptr 6 ]
+"72 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/spi.c
+[e E353 . `uc
+SPI_DEFAULT 0
+]
+"51 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\main.c
+[e E3896 FREQ_SETTING_TYPE `uc
+FREQ_SET_SELF_CONTROL_NORMAL 0
+FREQ_SET_SELF_CONTROL_SHAKE 1
+FREQ_SET_EXTERNAL_CONTROL 2
+]
+"66
+[e E3804 . `uc
+SPI_DEFAULT 0
+]
+"583 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[e E3980 PULSE_CHANGE_POSITION `uc
+PULSE_CHANGE_START_P0 1
+PULSE_CHANGE_STOP_P0 6
+PULSE_CHANGE_START_WAITE 10
+PULSE_CHANGE_START_SPK_ON_1 11
+PULSE_CHANGE_START_SPK_OFF_1 14
+PULSE_CHANGE_START_SPK_ON_2 15
+PULSE_CHANGE_START_SPK_OFF_2 18
+PULSE_CHANGE_START_SPK_ON_3 19
+PULSE_CHANGE_START_SPK_OFF_3 22
+PULSE_CHANGE_START_SPK_ON_4 23
+PULSE_CHANGE_START_SPK_OFF_4 26
+PULSE_CHANGE_START_SPK_ON_5 27
+PULSE_CHANGE_START_SPK_OFF_5 30
+PULSE_CHANGE_START_SPK_ON_6 31
+PULSE_CHANGE_START_SPK_OFF_6 34
+PULSE_CHANGE_START_SPK_ON_7 35
+PULSE_CHANGE_START_SPK_OFF_7 38
+PULSE_CHANGE_START_SPK_ON_8 39
+PULSE_CHANGE_START_SPK_OFF_8 42
+PULSE_CHANGE_START_SPK_ON_9 43
+PULSE_CHANGE_START_SPK_OFF_9 46
+PULSE_CHANGE_START_SPK_ON_10 47
+PULSE_CHANGE_START_SPK_OFF_10 50
+PULSE_CHANGE_START_P1 56
+PULSE_CHANGE_START_P2 72
+PULSE_CHANGE_OFF 91
+]
+"963
+[e E4007 ID_PULSE_OUT_STEP `uc
+ID_PULSE_OUT_STEP_P0 0
+ID_PULSE_OUT_STEP_P0_OFF 1
+ID_PULSE_OUT_STEP_SPK 2
+ID_PULSE_OUT_STEP_P1 22
+ID_PULSE_OUT_STEP_P2 23
+ID_PULSE_OUT_STEP_OFF 24
+ID_PULSE_OUT_STEP_WAIT 25
+ID_PULSE_OUT_STEP_MAX 26
+]
+"1584
+[e E3889 DRIVE_TYPE `uc
+DRIVE_SIMPLE 0
+DRIVE_SEARCH_BASE_POSITION 1
+DRIVE_CHECK_POSITION 2
+DRIVE_CORRECT_BASE_POSITION 3
+DRIVE_ACT_CORRECT_POSITION 4
+DRIVE_SEARCH_1008_POSITION 5
+]
+"1810
+[e E3896 FREQ_SETTING_TYPE `uc
+FREQ_SET_SELF_CONTROL_NORMAL 0
+FREQ_SET_SELF_CONTROL_SHAKE 1
+FREQ_SET_EXTERNAL_CONTROL 2
+]
+"1924
+[e E4016 ID_SEARCH_STAT `uc
+ID_SEARCH_FINE_POS_1ST 0
+ID_SEARCH_FINE_ROUGH_POS 1
+ID_SEARCH_MAX 2
+]
+"1925
+[e E4027 ID_DETECT_LOAD_TYPE `uc
+ID_DETECT_LOAD_NULL 0
+ID_DETECT_LOAD_FINE 1
+ID_DETECT_LOAD_ROUGH 2
+ID_DETECT_LOAD_FINE_CONT 11
+ID_DETECT_LOAD_ROUGH_CONT 12
+ID_DETECT_LOAD_MAX 13
+]
+"2036
+[e E4020 ID_SEARCH_RESULT `uc
+ID_SEARCH_RESULT_NULL 0
+ID_SEARCH_RESULT_NEW_POS 1
+ID_SEARCH_RESULT_CONT 2
+ID_SEARCH_RESULT_RETRY 3
+ID_SEARCH_RESULT_SUCCESS 4
+ID_SEARCH_RESULT_ERR 5
+]
+"207 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\spi_control.c
+[e E4025 ID_CMD_MOTOR `uc
+ID_CMD_M0 176
+ID_CMD_M1 192
+]
+"215
+[e E4009 ID_CMD_TYPE `uc
+ID_CMD_FWD_NULL 0
+ID_CMD_FWD_NORMAL 1
+ID_CMD_REV_NORMAL 2
+ID_CMD_FWD_WITH_SHAKE 3
+ID_CMD_SEARCH_LOAD_POSITION 4
+ID_CMD_SEARCH_BASE_POSITION 5
+ID_CMD_FWD_WITH_CORRECT 6
+ID_CMD_FWD_POSITION_CTL 7
+ID_CMD_REV_POSITION_CTL 8
+ID_CMD_START_DETECT_VRS 9
+ID_CMD_STOP_DETECT_VRS 10
+ID_CMD_ENABLE_EXCITATING 11
+ID_CMD_DISABLE_EXCITATING 12
+ID_CMD_SEARCH_1008_POSITION 13
+ID_CMD_TYPE_MAX 14
+]
+"255
+[e E3889 DRIVE_TYPE `uc
+DRIVE_SIMPLE 0
+DRIVE_SEARCH_BASE_POSITION 1
+DRIVE_CHECK_POSITION 2
+DRIVE_CORRECT_BASE_POSITION 3
+DRIVE_ACT_CORRECT_POSITION 4
+DRIVE_SEARCH_1008_POSITION 5
+]
+"261
+[e E3896 FREQ_SETTING_TYPE `uc
+FREQ_SET_SELF_CONTROL_NORMAL 0
+FREQ_SET_SELF_CONTROL_SHAKE 1
+FREQ_SET_EXTERNAL_CONTROL 2
+]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"16 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"58 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/dac.c
+[v _DAC_Initialize DAC_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"62
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"62 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/spi.c
+[v _SPI_Initialize SPI_Initialize `(v  1 e 1 0 ]
+"72
+[v _SPI_Open SPI_Open `(a  1 e 1 0 ]
+"92
+[v _SPI_ExchangeByte SPI_ExchangeByte `(uc  1 e 1 0 ]
+"136
+[v _SPI_ReadByte SPI_ReadByte `(uc  1 e 1 0 ]
+"64 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"99
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"157
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"169
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"64 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"87
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+"93
+[v _TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+[v i1_TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+"119
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+"130
+[v _TMR2_CallBack TMR2_CallBack `(v  1 e 1 0 ]
+"140
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+"144
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"795 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _InitPulsePositionTable InitPulsePositionTable `(v  1 e 1 0 ]
+"863
+[v _TMR2_Interrupt TMR2_Interrupt `(v  1 e 1 0 ]
+"1108
+[v _TMR2_Interrupt_SPK TMR2_Interrupt_SPK `(v  1 e 1 0 ]
+"1201
+[v _WatchMotorDriveFinish WatchMotorDriveFinish `(v  1 e 1 0 ]
+"1261
+[v _StartPulseOutM0 StartPulseOutM0 `(v  1 e 1 0 ]
+"1334
+[v _StartPulseOutM1 StartPulseOutM1 `(v  1 e 1 0 ]
+"1416
+[v _SetMotorStartSPK SetMotorStartSPK `(v  1 e 1 0 ]
+"1459
+[v _SetMotorStopSPK SetMotorStopSPK `(v  1 e 1 0 ]
+"1484
+[v _SetMotorEnableExcitating SetMotorEnableExcitating `(v  1 e 1 0 ]
+"1499
+[v _SetMotorDisableExcitating SetMotorDisableExcitating `(v  1 e 1 0 ]
+"1523
+[v _SetDriveType SetDriveType `(v  1 e 1 0 ]
+"1630
+[v _SetAfterMotorStopFunc SetAfterMotorStopFunc `(v  1 e 1 0 ]
+"1643
+[v _SetAfterDetectLoadFunc SetAfterDetectLoadFunc `(v  1 e 1 0 ]
+"1663
+[v _SetMotorDirection SetMotorDirection `(v  1 e 1 0 ]
+"1687
+[v _SetMotorStepCounter SetMotorStepCounter `(v  1 e 1 0 ]
+"1727
+[v _CalcMotorStepCounter CalcMotorStepCounter `(v  1 e 1 0 ]
+"1777
+[v _SetMotorAddShakePulse SetMotorAddShakePulse `(v  1 e 1 0 ]
+"1808
+[v _SetMotorFrequency SetMotorFrequency `(v  1 e 1 0 ]
+"1846
+[v _SetMotorStart SetMotorStart `(v  1 e 1 0 ]
+"1867
+[v _SetMotorPositionSearchStart SetMotorPositionSearchStart `(v  1 e 1 0 ]
+"1890
+[v _SetMotorCorrectPositionStart SetMotorCorrectPositionStart `(v  1 e 1 0 ]
+"1914
+[v _InitPositionSearch InitPositionSearch `(v  1 e 1 0 ]
+"1949
+[v _CorrectPosition CorrectPosition `(v  1 e 1 0 ]
+"1973
+[v _PriorUpdateCorrentPosition PriorUpdateCorrentPosition `(v  1 e 1 0 ]
+"1999
+[v _UpdateTargetPosition UpdateTargetPosition `(v  1 e 1 0 ]
+"2016
+[v _SetMotorStop SetMotorStop `(v  1 e 1 0 ]
+"2033
+[v _AfterDetectedLoadPosition AfterDetectedLoadPosition `(v  1 e 1 0 ]
+"2354
+[v _DetermineBasePosition DetermineBasePosition `(v  1 e 1 0 ]
+"2405
+[v _UpdataHandPosition UpdataHandPosition `(v  1 e 1 0 ]
+"2437
+[v _UpdateCurrentPositionByFinePosition UpdateCurrentPositionByFinePosition `(v  1 e 1 0 ]
+"2469
+[v _SaveLoadPosition SaveLoadPosition `(v  1 e 1 0 ]
+"2489
+[v _ActivateHandPosition ActivateHandPosition `(v  1 e 1 0 ]
+"2504
+[v _DeactivateHandPosition DeactivateHandPosition `(v  1 e 1 0 ]
+"2519
+[v _MoveTargetPosition MoveTargetPosition `(v  1 e 1 0 ]
+"2540
+[v _VerifyHandPosition_LoadPosition VerifyHandPosition_LoadPosition `(v  1 e 1 0 ]
+"2621
+[v _GetIsMotorActive GetIsMotorActive `(uc  1 e 1 0 ]
+"2637
+[v _SetMotorBitMotorNo SetMotorBitMotorNo `(v  1 e 1 0 ]
+"2650
+[v _ComparatorOff ComparatorOff `(v  1 e 1 0 ]
+"2669
+[v _ComparatorOn ComparatorOn `(v  1 e 1 0 ]
+"2704
+[v _VrsCheck VrsCheck `(v  1 e 1 0 ]
+"2727
+[v _SpkComparatorOff SpkComparatorOff `(v  1 e 1 0 ]
+"2745
+[v _SpkComparatorOn SpkComparatorOn `(v  1 e 1 0 ]
+"2803
+[v _SetExcitatingOutOffData SetExcitatingOutOffData `(v  1 e 1 0 ]
+"2835
+[v _ExcitatingOutOn ExcitatingOutOn `(v  1 e 1 0 ]
+"2870
+[v _SetDataTRISxWork_SPK_OPEN SetDataTRISxWork_SPK_OPEN `(v  1 e 1 0 ]
+"2923
+[v _SetDataTRISxWork_SPK_SHORT SetDataTRISxWork_SPK_SHORT `(v  1 e 1 0 ]
+"2944
+[v _SetOutPutLATX SetOutPutLATX `(v  1 e 1 0 ]
+"3000
+[v _SetPulseOutLATxWork_M0_FWD_POL0_P1 SetPulseOutLATxWork_M0_FWD_POL0_P1 `(v  1 e 1 0 ]
+"3012
+[v _SetPulseOutLATxWork_M0_FWD_POL0_P2 SetPulseOutLATxWork_M0_FWD_POL0_P2 `(v  1 e 1 0 ]
+"3024
+[v _SetPulseOutLATxWork_M0_FWD_POL0_OFF SetPulseOutLATxWork_M0_FWD_POL0_OFF `(v  1 e 1 0 ]
+"3045
+[v _SetPulseOutLATxWork_M0_FWD_POL1_P1 SetPulseOutLATxWork_M0_FWD_POL1_P1 `(v  1 e 1 0 ]
+"3057
+[v _SetPulseOutLATxWork_M0_FWD_POL1_P2 SetPulseOutLATxWork_M0_FWD_POL1_P2 `(v  1 e 1 0 ]
+"3069
+[v _SetPulseOutLATxWork_M0_FWD_POL1_OFF SetPulseOutLATxWork_M0_FWD_POL1_OFF `(v  1 e 1 0 ]
+"3090
+[v _SetPulseOutLATxWork_M0_REV_POL0_P1 SetPulseOutLATxWork_M0_REV_POL0_P1 `(v  1 e 1 0 ]
+"3102
+[v _SetPulseOutLATxWork_M0_REV_POL0_P2 SetPulseOutLATxWork_M0_REV_POL0_P2 `(v  1 e 1 0 ]
+"3114
+[v _SetPulseOutLATxWork_M0_REV_POL0_OFF SetPulseOutLATxWork_M0_REV_POL0_OFF `(v  1 e 1 0 ]
+"3129
+[v _SetPulseOutLATxWork_M0_REV_POL1_P1 SetPulseOutLATxWork_M0_REV_POL1_P1 `(v  1 e 1 0 ]
+"3141
+[v _SetPulseOutLATxWork_M0_REV_POL1_P2 SetPulseOutLATxWork_M0_REV_POL1_P2 `(v  1 e 1 0 ]
+"3153
+[v _SetPulseOutLATxWork_M0_REV_POL1_OFF SetPulseOutLATxWork_M0_REV_POL1_OFF `(v  1 e 1 0 ]
+"3169
+[v _SetPulseOutLATxWork_M1_FWD_POL0_P1 SetPulseOutLATxWork_M1_FWD_POL0_P1 `(v  1 e 1 0 ]
+"3181
+[v _SetPulseOutLATxWork_M1_FWD_POL0_P2 SetPulseOutLATxWork_M1_FWD_POL0_P2 `(v  1 e 1 0 ]
+"3193
+[v _SetPulseOutLATxWork_M1_FWD_POL0_OFF SetPulseOutLATxWork_M1_FWD_POL0_OFF `(v  1 e 1 0 ]
+"3214
+[v _SetPulseOutLATxWork_M1_FWD_POL1_P1 SetPulseOutLATxWork_M1_FWD_POL1_P1 `(v  1 e 1 0 ]
+"3226
+[v _SetPulseOutLATxWork_M1_FWD_POL1_P2 SetPulseOutLATxWork_M1_FWD_POL1_P2 `(v  1 e 1 0 ]
+"3238
+[v _SetPulseOutLATxWork_M1_FWD_POL1_OFF SetPulseOutLATxWork_M1_FWD_POL1_OFF `(v  1 e 1 0 ]
+"3259
+[v _SetPulseOutLATxWork_M1_REV_POL0_P1 SetPulseOutLATxWork_M1_REV_POL0_P1 `(v  1 e 1 0 ]
+"3271
+[v _SetPulseOutLATxWork_M1_REV_POL0_P2 SetPulseOutLATxWork_M1_REV_POL0_P2 `(v  1 e 1 0 ]
+"3283
+[v _SetPulseOutLATxWork_M1_REV_POL0_OFF SetPulseOutLATxWork_M1_REV_POL0_OFF `(v  1 e 1 0 ]
+"3298
+[v _SetPulseOutLATxWork_M1_REV_POL1_P1 SetPulseOutLATxWork_M1_REV_POL1_P1 `(v  1 e 1 0 ]
+"3310
+[v _SetPulseOutLATxWork_M1_REV_POL1_P2 SetPulseOutLATxWork_M1_REV_POL1_P2 `(v  1 e 1 0 ]
+"3322
+[v _SetPulseOutLATxWork_M1_REV_POL1_OFF SetPulseOutLATxWork_M1_REV_POL1_OFF `(v  1 e 1 0 ]
+"3339
+[v _SetPulseOutLATxWork_M0_SHAKE_POL0_P0 SetPulseOutLATxWork_M0_SHAKE_POL0_P0 `(v  1 e 1 0 ]
+"3351
+[v _SetPulseOutLATxWork_M0_SHAKE_POL0_OFF SetPulseOutLATxWork_M0_SHAKE_POL0_OFF `(v  1 e 1 0 ]
+"3370
+[v _SetDataTRISxWork_M0_SPK_POL0_OPEN SetDataTRISxWork_M0_SPK_POL0_OPEN `(v  1 e 1 0 ]
+"3382
+[v _SetDataTRISxWork_M0_SPK_POL0_SHORT SetDataTRISxWork_M0_SPK_POL0_SHORT `(v  1 e 1 0 ]
+"3402
+[v _SetPulseOutLATxWork_M0_SHAKE_POL1_P0 SetPulseOutLATxWork_M0_SHAKE_POL1_P0 `(v  1 e 1 0 ]
+"3414
+[v _SetPulseOutLATxWork_M0_SHAKE_POL1_OFF SetPulseOutLATxWork_M0_SHAKE_POL1_OFF `(v  1 e 1 0 ]
+"3433
+[v _SetDataTRISxWork_M0_SPK_POL1_OPEN SetDataTRISxWork_M0_SPK_POL1_OPEN `(v  1 e 1 0 ]
+"3445
+[v _SetDataTRISxWork_M0_SPK_POL1_SHORT SetDataTRISxWork_M0_SPK_POL1_SHORT `(v  1 e 1 0 ]
+"3466
+[v _SetPulseOutLATxWork_M1_SHAKE_POL0_P0 SetPulseOutLATxWork_M1_SHAKE_POL0_P0 `(v  1 e 1 0 ]
+"3478
+[v _SetPulseOutLATxWork_M1_SHAKE_POL0_OFF SetPulseOutLATxWork_M1_SHAKE_POL0_OFF `(v  1 e 1 0 ]
+"3497
+[v _SetDataTRISxWork_M1_SPK_POL0_OPEN SetDataTRISxWork_M1_SPK_POL0_OPEN `(v  1 e 1 0 ]
+"3509
+[v _SetDataTRISxWork_M1_SPK_POL0_SHORT SetDataTRISxWork_M1_SPK_POL0_SHORT `(v  1 e 1 0 ]
+"3529
+[v _SetPulseOutLATxWork_M1_SHAKE_POL1_P0 SetPulseOutLATxWork_M1_SHAKE_POL1_P0 `(v  1 e 1 0 ]
+"3541
+[v _SetPulseOutLATxWork_M1_SHAKE_POL1_OFF SetPulseOutLATxWork_M1_SHAKE_POL1_OFF `(v  1 e 1 0 ]
+"3560
+[v _SetDataTRISxWork_M1_SPK_POL1_OPEN SetDataTRISxWork_M1_SPK_POL1_OPEN `(v  1 e 1 0 ]
+"3572
+[v _SetDataTRISxWork_M1_SPK_POL1_SHORT SetDataTRISxWork_M1_SPK_POL1_SHORT `(v  1 e 1 0 ]
+"173 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\spi_control.c
+[v _SPIControl_RecieveComannd SPIControl_RecieveComannd `(v  1 e 1 0 ]
+"196
+[v _SPIControl_ExecuteCommand SPIControl_ExecuteCommand `(v  1 e 1 0 ]
+"239
+[v _SpiCmdFunc_Test SpiCmdFunc_Test `(v  1 e 1 0 ]
+"253
+[v _SpiCmdFunc_FwdPulseNormal SpiCmdFunc_FwdPulseNormal `(v  1 e 1 0 ]
+"273
+[v _SpiCmdFunc_RevPulseNormal SpiCmdFunc_RevPulseNormal `(v  1 e 1 0 ]
+"293
+[v _SpiCmdFunc_FwdPulseWithShake SpiCmdFunc_FwdPulseWithShake `(v  1 e 1 0 ]
+"305
+[v _SpiCmdFunc_SearchLoadPosition SpiCmdFunc_SearchLoadPosition `(v  1 e 1 0 ]
+"317
+[v _SpiCmdFunc_SearchBasePosition SpiCmdFunc_SearchBasePosition `(v  1 e 1 0 ]
+"348
+[v _SpiCmdFunc_FwdPulseWithCorrect SpiCmdFunc_FwdPulseWithCorrect `(v  1 e 1 0 ]
+"374
+[v _SetFwdPulseWithCorrectProc SetFwdPulseWithCorrectProc `(v  1 e 1 0 ]
+"407
+[v _SpiCmdFunc_FwdPulsePositionCtl SpiCmdFunc_FwdPulsePositionCtl `(v  1 e 1 0 ]
+"427
+[v _SpiCmdFunc_RevPulsePositionCtl SpiCmdFunc_RevPulsePositionCtl `(v  1 e 1 0 ]
+"447
+[v _SpiCmdFunc_StartDetectVrs SpiCmdFunc_StartDetectVrs `(v  1 e 1 0 ]
+"459
+[v _SpiCmdFunc_StopDetectVrs SpiCmdFunc_StopDetectVrs `(v  1 e 1 0 ]
+"471
+[v _SpiCmdFunc_EnableExcitating SpiCmdFunc_EnableExcitating `(v  1 e 1 0 ]
+"483
+[v _SpiCmdFunc_DisableExcitating SpiCmdFunc_DisableExcitating `(v  1 e 1 0 ]
+"495
+[v _SpiCmdFunc_Search1008Position SpiCmdFunc_Search1008Position `(v  1 e 1 0 ]
+"523
+[v _SPIControl_SetNotification SPIControl_SetNotification `(v  1 e 1 0 ]
+[s S158 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16lf1509.h
+[s S167 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S172 . 1 `S158 1 . 1 0 `S167 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES172  1 e 1 @11 ]
+[s S25 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"597
+[u S34 . 1 `S25 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES34  1 e 1 @17 ]
+[s S913 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NCO1IF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 C1IF 1 0 :1:5 
+`uc 1 C2IF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"653
+[u S921 . 1 `S913 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES921  1 e 1 @18 ]
+"748
+[v _TMR1L TMR1L `VEuc  1 e 1 @22 ]
+"768
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+"788
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+[s S354 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"810
+[s S361 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+[u S367 . 1 `S354 1 . 1 0 `S361 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES367  1 e 1 @24 ]
+"860
+[v _T1GCON T1GCON `VEuc  1 e 1 @25 ]
+"930
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"950
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"970
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S78 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"991
+[s S82 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S90 . 1 `S78 1 . 1 0 `S82 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES90  1 e 1 @28 ]
+"1041
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1091
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S459 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1105
+[u S465 . 1 `S459 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES465  1 e 1 @141 ]
+"1130
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S46 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1209
+[u S55 . 1 `S46 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES55  1 e 1 @145 ]
+[s S274 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1356
+[s S281 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S288 . 1 `S274 1 . 1 0 `S281 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES288  1 e 1 @149 ]
+"1473
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1532
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1866
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"1911
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"1950
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2012
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @273 ]
+"2069
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @274 ]
+"2141
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @275 ]
+"2198
+[v _CM2CON1 CM2CON1 `VEuc  1 e 1 @276 ]
+"2296
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2405
+[v _DACCON0 DACCON0 `VEuc  1 e 1 @280 ]
+"2446
+[v _DACCON1 DACCON1 `VEuc  1 e 1 @281 ]
+"2498
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2537
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2584
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2620
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3112
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3170
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3218
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"3256
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"3332
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"3454
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S474 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3483
+[s S483 . 1 `uc 1 SSPM 1 0 :4:0 
+]
+[u S485 . 1 `S474 1 . 1 0 `S483 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES485  1 e 1 @533 ]
+"3658
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"10515
+[v _LATC0 LATC0 `VEb  1 e 0 @2160 ]
+[s S451 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/spi.c
+[v _spi_configuration spi_configuration `DC[1]S451  1 s 4 spi_configuration ]
+"57 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_InterruptHandler TMR2_InterruptHandler `*.37(v  1 e 2 0 ]
+"474 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _TblMaxSteps TblMaxSteps `DC[2]s  1 s 4 TblMaxSteps ]
+"479
+[v _TblMaxSearchSteps TblMaxSearchSteps `DC[2]s  1 s 4 TblMaxSearchSteps ]
+"583
+[v _TblM0PulseChangePosition TblM0PulseChangePosition `DC[25]uc  1 s 25 TblM0PulseChangePosition ]
+"611
+[v _TblM1PulseChangePosition TblM1PulseChangePosition `DC[25]uc  1 s 25 TblM1PulseChangePosition ]
+"641
+[v _motorBitOperation motorBitOperation `uc  1 e 1 0 ]
+"642
+[v _motorNoOperation motorNoOperation `uc  1 e 1 0 ]
+"644
+[v _TblM0PulseChangePositionLast TblM0PulseChangePositionLast `uc  1 s 1 TblM0PulseChangePositionLast ]
+"645
+[v _TblM1PulseChangePositionLast TblM1PulseChangePositionLast `uc  1 s 1 TblM1PulseChangePositionLast ]
+"647
+[v _pulseOutLATA pulseOutLATA `uc  1 s 1 pulseOutLATA ]
+"648
+[v _pulseOutLATB pulseOutLATB `uc  1 s 1 pulseOutLATB ]
+"649
+[v _pulseOutLATC pulseOutLATC `uc  1 s 1 pulseOutLATC ]
+"651
+[v _pulseOutLATAWork_M0 pulseOutLATAWork_M0 `uc  1 s 1 pulseOutLATAWork_M0 ]
+"652
+[v _pulseOutLATBWork_M0 pulseOutLATBWork_M0 `uc  1 s 1 pulseOutLATBWork_M0 ]
+"653
+[v _pulseOutLATCWork_M0 pulseOutLATCWork_M0 `uc  1 s 1 pulseOutLATCWork_M0 ]
+"655
+[v _pulseOutLATAWork_M1 pulseOutLATAWork_M1 `uc  1 s 1 pulseOutLATAWork_M1 ]
+"656
+[v _pulseOutLATBWork_M1 pulseOutLATBWork_M1 `uc  1 s 1 pulseOutLATBWork_M1 ]
+"657
+[v _pulseOutLATCWork_M1 pulseOutLATCWork_M1 `uc  1 s 1 pulseOutLATCWork_M1 ]
+"659
+[v _dataTRISA dataTRISA `uc  1 s 1 dataTRISA ]
+"660
+[v _dataTRISB dataTRISB `uc  1 s 1 dataTRISB ]
+"661
+[v _dataTRISC dataTRISC `uc  1 s 1 dataTRISC ]
+"663
+[v _dataTRISAWork_M0 dataTRISAWork_M0 `uc  1 s 1 dataTRISAWork_M0 ]
+"664
+[v _dataTRISBWork_M0 dataTRISBWork_M0 `uc  1 s 1 dataTRISBWork_M0 ]
+"665
+[v _dataTRISCWork_M0 dataTRISCWork_M0 `uc  1 s 1 dataTRISCWork_M0 ]
+"667
+[v _dataTRISAWork_M1 dataTRISAWork_M1 `uc  1 s 1 dataTRISAWork_M1 ]
+"668
+[v _dataTRISBWork_M1 dataTRISBWork_M1 `uc  1 s 1 dataTRISBWork_M1 ]
+"669
+[v _dataTRISCWork_M1 dataTRISCWork_M1 `uc  1 s 1 dataTRISCWork_M1 ]
+"671
+[v _m0PulsePositionCt m0PulsePositionCt `uc  1 s 1 m0PulsePositionCt ]
+"672
+[v _m1PulsePositionCt m1PulsePositionCt `uc  1 s 1 m1PulsePositionCt ]
+"674
+[v _m0PulsePositionCtWork m0PulsePositionCtWork `uc  1 s 1 m0PulsePositionCtWork ]
+"675
+[v _m1PulsePositionCtWork m1PulsePositionCtWork `uc  1 s 1 m1PulsePositionCtWork ]
+"677
+[v _m0PulseChangePosition m0PulseChangePosition `uc  1 s 1 m0PulseChangePosition ]
+"678
+[v _m1PulseChangePosition m1PulseChangePosition `uc  1 s 1 m1PulseChangePosition ]
+"680
+[v _m0PulseOutChangeFunc m0PulseOutChangeFunc `*.37(v  1 s 2 m0PulseOutChangeFunc ]
+"681
+[v _m1PulseOutChangeFunc m1PulseOutChangeFunc `*.37(v  1 s 2 m1PulseOutChangeFunc ]
+"683
+[v _m0PulseOutStep m0PulseOutStep `uc  1 s 1 m0PulseOutStep ]
+"684
+[v _m1PulseOutStep m1PulseOutStep `uc  1 s 1 m1PulseOutStep ]
+"686
+[v _m0PulseOutStepWork m0PulseOutStepWork `uc  1 s 1 m0PulseOutStepWork ]
+"687
+[v _m1PulseOutStepWork m1PulseOutStepWork `uc  1 s 1 m1PulseOutStepWork ]
+"689
+[v _finishPositionCtSet finishPositionCtSet `[2]uc  1 s 2 finishPositionCtSet ]
+"691
+[v _polarityBit polarityBit `uc  1 s 1 polarityBit ]
+"695
+[v _excitatingEnableBit excitatingEnableBit `uc  1 s 1 excitatingEnableBit ]
+"696
+[v _excitatingTime excitatingTime `us  1 s 2 excitatingTime ]
+"697
+[v _excitatingOffMaskTime excitatingOffMaskTime `uc  1 s 1 excitatingOffMaskTime ]
+"698
+[v _detectSpkTurnBit detectSpkTurnBit `uc  1 s 1 detectSpkTurnBit ]
+"700
+[v _spkPositionCt spkPositionCt `uc  1 s 1 spkPositionCt ]
+"701
+[v _spkChangePosition spkChangePosition `uc  1 s 1 spkChangePosition ]
+"702
+[v _spkOutChangeFunc spkOutChangeFunc `*.37(v  1 s 2 spkOutChangeFunc ]
+"704
+[v _spkOutTrisRequestFlug spkOutTrisRequestFlug `uc  1 s 1 spkOutTrisRequestFlug ]
+"705
+[v _spkReqVrsCheckBit spkReqVrsCheckBit `uc  1 s 1 spkReqVrsCheckBit ]
+"710
+[v _driveType driveType `[2]uc  1 s 2 driveType ]
+"711
+[v _driveDirectionBit driveDirectionBit `uc  1 s 1 driveDirectionBit ]
+"712
+[v _addShakePulseBit addShakePulseBit `uc  1 s 1 addShakePulseBit ]
+"713
+[v _reqAfterMotorStopFuncBit reqAfterMotorStopFuncBit `uc  1 s 1 reqAfterMotorStopFuncBit ]
+"714
+[v _reqStopMotorBit reqStopMotorBit `uc  1 s 1 reqStopMotorBit ]
+"716
+[v _motorActiveBit motorActiveBit `uc  1 s 1 motorActiveBit ]
+"718
+[v _cbAfterMotorStopFunc cbAfterMotorStopFunc `[2]*.37(v  1 s 4 cbAfterMotorStopFunc ]
+"720
+[v _motorStepCounterSet motorStepCounterSet `[2]s  1 s 4 motorStepCounterSet ]
+"721
+[v _motorM0StepCounter motorM0StepCounter `s  1 s 2 motorM0StepCounter ]
+"722
+[v _motorM1StepCounter motorM1StepCounter `s  1 s 2 motorM1StepCounter ]
+"729
+[v _OutRequestFlug OutRequestFlug `uc  1 s 1 OutRequestFlug ]
+"730
+[v _OutTrisRequestFlug OutTrisRequestFlug `uc  1 s 1 OutTrisRequestFlug ]
+"732
+[v _vrsCountValue vrsCountValue `[2]uc  1 s 2 vrsCountValue ]
+"734
+[v _reqComparatorOnBit reqComparatorOnBit `uc  1 s 1 reqComparatorOnBit ]
+"735
+[v _reqComparatorOffBit reqComparatorOffBit `uc  1 s 1 reqComparatorOffBit ]
+"736
+[v _reqVrsCheckBit reqVrsCheckBit `uc  1 s 1 reqVrsCheckBit ]
+"739
+[v _handPositionActiveBit handPositionActiveBit `uc  1 e 1 0 ]
+"740
+[v _reqAfterDetectLoadFuncBit reqAfterDetectLoadFuncBit `uc  1 s 1 reqAfterDetectLoadFuncBit ]
+"742
+[v _reqSearchBasePosBit reqSearchBasePosBit `uc  1 s 1 reqSearchBasePosBit ]
+"743
+[v _reqCorrectBasePosBit reqCorrectBasePosBit `uc  1 e 1 0 ]
+"744
+[v _reqCorrectFinePoBit reqCorrectFinePoBit `uc  1 e 1 0 ]
+"745
+[v _reqCheckLoadPosBit reqCheckLoadPosBit `uc  1 s 1 reqCheckLoadPosBit ]
+"747
+[v _positionSearchCt positionSearchCt `[2]s  1 s 4 positionSearchCt ]
+"749
+[v _actCorrectDriveBit actCorrectDriveBit `uc  1 e 1 0 ]
+"751
+[v _currentPosition currentPosition `[2]s  1 s 4 currentPosition ]
+"752
+[v _targetPosition targetPosition `[2]s  1 s 4 targetPosition ]
+"754
+[v _detectLoadPositionIndex detectLoadPositionIndex `[2]uc  1 s 2 detectLoadPositionIndex ]
+"756
+[v _detectLoadPosition detectLoadPosition `[2][23]s  1 s 92 detectLoadPosition ]
+"757
+[v _detectLoadPositionType detectLoadPositionType `[2][23]uc  1 s 46 detectLoadPositionType ]
+"758
+[v _detectLoadPositionPtr detectLoadPositionPtr `[2]*.39s  1 s 4 detectLoadPositionPtr ]
+"759
+[v _detectLoadPositionTypePtr detectLoadPositionTypePtr `[2]*.5uc  1 s 2 detectLoadPositionTypePtr ]
+"761
+[v _detectBasePosition detectBasePosition `[2]s  1 s 4 detectBasePosition ]
+"763
+[v _loadPositionIndex loadPositionIndex `[2]uc  1 s 2 loadPositionIndex ]
+"764
+[v _loadPosition loadPosition `[2][23]s  1 s 92 loadPosition ]
+"765
+[v _loadPositionType loadPositionType `[2][23]uc  1 s 46 loadPositionType ]
+"767
+[v _detectFinePosCt detectFinePosCt `[2]uc  1 s 2 detectFinePosCt ]
+"768
+[v _detectRoughPosCt detectRoughPosCt `[2]uc  1 s 2 detectRoughPosCt ]
+"769
+[v _detectLoadType detectLoadType `[2]uc  1 s 2 detectLoadType ]
+"770
+[v _detectLoadCont detectLoadCont `[2]uc  1 s 2 detectLoadCont ]
+"771
+[v _positionSearchStat positionSearchStat `[2]uc  1 s 2 positionSearchStat ]
+"773
+[v _searchTotalSteps searchTotalSteps `[2]s  1 s 4 searchTotalSteps ]
+"775
+[v _detectRoughTotalMove detectRoughTotalMove `[2]s  1 s 4 detectRoughTotalMove ]
+"776
+[v _offsetBasePosition offsetBasePosition `DC[2]s  1 s 4 offsetBasePosition ]
+"781
+[v _cbAfterDetectLoadFunc cbAfterDetectLoadFunc `[2]*.37(v  1 s 4 cbAfterDetectLoadFunc ]
+"783
+[v _doubleInterval doubleInterval `uc  1 s 1 doubleInterval ]
+"784
+[v _missingDetectFinePosition missingDetectFinePosition `s  1 s 2 missingDetectFinePosition ]
+"130 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\spi_control.c
+[v _recieveCommand recieveCommand `uc  1 s 1 recieveCommand ]
+"132
+[v _SpiCmmandFunction SpiCmmandFunction `DC[14]*.37(v  1 s 28 SpiCmmandFunction ]
+"16 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"73
+} 0
+"99 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr1.c
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"103
+} 0
+"1777 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _SetMotorAddShakePulse SetMotorAddShakePulse `(v  1 e 1 0 ]
+{
+[v SetMotorAddShakePulse@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorAddShakePulse@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorAddShakePulse@sw sw `uc  1 p 1 0 ]
+"1779
+[v SetMotorAddShakePulse@motor_no motor_no `uc  1 a 1 3 ]
+"1790
+} 0
+"50 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"64 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"64 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"178
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"180
+} 0
+"62 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/spi.c
+[v _SPI_Initialize SPI_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"55 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"62 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"58 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/dac.c
+[v _DAC_Initialize DAC_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"72 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/spi.c
+[v _SPI_Open SPI_Open `(a  1 e 1 0 ]
+{
+[v SPI_Open@spiUniqueConfiguration spiUniqueConfiguration `E353  1 a 1 wreg ]
+[v SPI_Open@spiUniqueConfiguration spiUniqueConfiguration `E353  1 a 1 wreg ]
+"74
+[v SPI_Open@spiUniqueConfiguration spiUniqueConfiguration `E353  1 a 1 3 ]
+"85
+} 0
+"173 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\spi_control.c
+[v _SPIControl_RecieveComannd SPIControl_RecieveComannd `(v  1 e 1 0 ]
+{
+"187
+} 0
+"1201 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _WatchMotorDriveFinish WatchMotorDriveFinish `(v  1 e 1 0 ]
+{
+"1203
+[v WatchMotorDriveFinish@func func `*.37(v  1 a 2 0 ]
+"1248
+} 0
+"374 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\spi_control.c
+[v _SetFwdPulseWithCorrectProc SetFwdPulseWithCorrectProc `(v  1 e 1 0 ]
+{
+"376
+[v SetFwdPulseWithCorrectProc@motor_bit motor_bit `uc  1 a 1 32 ]
+"374
+[v SetFwdPulseWithCorrectProc@motor_no motor_no `uc  1 p 1 29 ]
+"398
+} 0
+"495
+[v _SpiCmdFunc_Search1008Position SpiCmdFunc_Search1008Position `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_Search1008Position@motor_no motor_no `uc  1 p 1 29 ]
+"514
+} 0
+"483
+[v _SpiCmdFunc_DisableExcitating SpiCmdFunc_DisableExcitating `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_DisableExcitating@motor_no motor_no `uc  1 p 1 29 ]
+"486
+} 0
+"471
+[v _SpiCmdFunc_EnableExcitating SpiCmdFunc_EnableExcitating `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_EnableExcitating@motor_no motor_no `uc  1 p 1 29 ]
+"474
+} 0
+"459
+[v _SpiCmdFunc_StopDetectVrs SpiCmdFunc_StopDetectVrs `(v  1 e 1 0 ]
+{
+"462
+} 0
+"447
+[v _SpiCmdFunc_StartDetectVrs SpiCmdFunc_StartDetectVrs `(v  1 e 1 0 ]
+{
+"450
+} 0
+"427
+[v _SpiCmdFunc_RevPulsePositionCtl SpiCmdFunc_RevPulsePositionCtl `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_RevPulsePositionCtl@motor_no motor_no `uc  1 p 1 29 ]
+"438
+} 0
+"407
+[v _SpiCmdFunc_FwdPulsePositionCtl SpiCmdFunc_FwdPulsePositionCtl `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_FwdPulsePositionCtl@motor_no motor_no `uc  1 p 1 29 ]
+"418
+} 0
+"348
+[v _SpiCmdFunc_FwdPulseWithCorrect SpiCmdFunc_FwdPulseWithCorrect `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_FwdPulseWithCorrect@motor_no motor_no `uc  1 p 1 29 ]
+"362
+} 0
+"317
+[v _SpiCmdFunc_SearchBasePosition SpiCmdFunc_SearchBasePosition `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_SearchBasePosition@motor_no motor_no `uc  1 p 1 29 ]
+"336
+} 0
+"305
+[v _SpiCmdFunc_SearchLoadPosition SpiCmdFunc_SearchLoadPosition `(v  1 e 1 0 ]
+{
+"308
+} 0
+"293
+[v _SpiCmdFunc_FwdPulseWithShake SpiCmdFunc_FwdPulseWithShake `(v  1 e 1 0 ]
+{
+"296
+} 0
+"273
+[v _SpiCmdFunc_RevPulseNormal SpiCmdFunc_RevPulseNormal `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_RevPulseNormal@motor_no motor_no `uc  1 p 1 29 ]
+"284
+} 0
+"253
+[v _SpiCmdFunc_FwdPulseNormal SpiCmdFunc_FwdPulseNormal `(v  1 e 1 0 ]
+{
+[v SpiCmdFunc_FwdPulseNormal@motor_no motor_no `uc  1 p 1 29 ]
+"264
+} 0
+"239
+[v _SpiCmdFunc_Test SpiCmdFunc_Test `(v  1 e 1 0 ]
+{
+"244
+} 0
+"523
+[v _SPIControl_SetNotification SPIControl_SetNotification `(v  1 e 1 0 ]
+{
+"538
+} 0
+"2033 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _AfterDetectedLoadPosition AfterDetectedLoadPosition `(v  1 e 1 0 ]
+{
+"2035
+[v AfterDetectedLoadPosition@move_steps move_steps `s  1 a 2 36 ]
+"2036
+[v AfterDetectedLoadPosition@res res `uc  1 a 1 35 ]
+"2033
+[v AfterDetectedLoadPosition@motor_no motor_no `uc  1 p 1 29 ]
+"2343
+} 0
+"2540
+[v _VerifyHandPosition_LoadPosition VerifyHandPosition_LoadPosition `(v  1 e 1 0 ]
+{
+"2546
+[v VerifyHandPosition_LoadPosition@load_pos load_pos `s  1 a 2 44 ]
+"2545
+[v VerifyHandPosition_LoadPosition@curt_pos curt_pos `s  1 a 2 41 ]
+"2544
+[v VerifyHandPosition_LoadPosition@remain_steps remain_steps `s  1 a 2 38 ]
+"2542
+[v VerifyHandPosition_LoadPosition@i i `uc  1 a 1 43 ]
+"2543
+[v VerifyHandPosition_LoadPosition@misalignment_flag misalignment_flag `uc  1 a 1 40 ]
+"2540
+[v VerifyHandPosition_LoadPosition@motor_no motor_no `uc  1 p 1 29 ]
+"2610
+} 0
+"1890
+[v _SetMotorCorrectPositionStart SetMotorCorrectPositionStart `(v  1 e 1 0 ]
+{
+[v SetMotorCorrectPositionStart@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorCorrectPositionStart@motor_no motor_no `uc  1 a 1 wreg ]
+"1892
+[v SetMotorCorrectPositionStart@motor_no motor_no `uc  1 a 1 18 ]
+"1904
+} 0
+"2437
+[v _UpdateCurrentPositionByFinePosition UpdateCurrentPositionByFinePosition `(v  1 e 1 0 ]
+{
+[v UpdateCurrentPositionByFinePosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2441
+[v UpdateCurrentPositionByFinePosition@diff diff `s  1 a 2 14 ]
+"2439
+[v UpdateCurrentPositionByFinePosition@i i `uc  1 a 1 16 ]
+"2437
+[v UpdateCurrentPositionByFinePosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2443
+[v UpdateCurrentPositionByFinePosition@motor_no motor_no `uc  1 a 1 17 ]
+"2458
+} 0
+"2405
+[v _UpdataHandPosition UpdataHandPosition `(v  1 e 1 0 ]
+{
+[v UpdataHandPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2407
+[v UpdataHandPosition@i i `uc  1 a 1 23 ]
+"2405
+[v UpdataHandPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2409
+[v UpdataHandPosition@motor_no motor_no `uc  1 a 1 24 ]
+"2418
+} 0
+"2637
+[v _SetMotorBitMotorNo SetMotorBitMotorNo `(v  1 e 1 0 ]
+{
+[v SetMotorBitMotorNo@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorBitMotorNo@motor_no motor_no `uc  1 a 1 wreg ]
+"2639
+[v SetMotorBitMotorNo@motor_no motor_no `uc  1 a 1 2 ]
+"2641
+} 0
+"2469
+[v _SaveLoadPosition SaveLoadPosition `(v  1 e 1 0 ]
+{
+[v SaveLoadPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2471
+[v SaveLoadPosition@i i `uc  1 a 1 23 ]
+"2469
+[v SaveLoadPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2473
+[v SaveLoadPosition@motor_no motor_no `uc  1 a 1 22 ]
+"2479
+} 0
+"2519
+[v _MoveTargetPosition MoveTargetPosition `(v  1 e 1 0 ]
+{
+[v MoveTargetPosition@motor_no motor_no `uc  1 a 1 wreg ]
+[v MoveTargetPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2522
+[v MoveTargetPosition@motor_no motor_no `uc  1 a 1 28 ]
+"2529
+} 0
+"2354
+[v _DetermineBasePosition DetermineBasePosition `(v  1 e 1 0 ]
+{
+[v DetermineBasePosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2357
+[v DetermineBasePosition@load_pos_type load_pos_type `s  1 a 2 21 ]
+"2356
+[v DetermineBasePosition@base_pos_index base_pos_index `uc  1 a 1 23 ]
+"2354
+[v DetermineBasePosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2359
+[v DetermineBasePosition@motor_no motor_no `uc  1 a 1 24 ]
+"2394
+} 0
+"2489
+[v _ActivateHandPosition ActivateHandPosition `(v  1 e 1 0 ]
+{
+[v ActivateHandPosition@motor_no motor_no `uc  1 a 1 wreg ]
+[v ActivateHandPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2491
+[v ActivateHandPosition@motor_no motor_no `uc  1 a 1 2 ]
+"2494
+} 0
+"136 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/spi.c
+[v _SPI_ReadByte SPI_ReadByte `(uc  1 e 1 0 ]
+{
+"139
+} 0
+"196 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\spi_control.c
+[v _SPIControl_ExecuteCommand SPIControl_ExecuteCommand `(v  1 e 1 0 ]
+{
+"198
+[v SPIControl_ExecuteCommand@motor_select motor_select `uc  1 a 1 36 ]
+"199
+[v SPIControl_ExecuteCommand@cmd_type cmd_type `uc  1 a 1 35 ]
+"230
+} 0
+"1459 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _SetMotorStopSPK SetMotorStopSPK `(v  1 e 1 0 ]
+{
+"1474
+} 0
+"93 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+{
+"97
+} 0
+"2727 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _SpkComparatorOff SpkComparatorOff `(v  1 e 1 0 ]
+{
+"2737
+} 0
+"2803
+[v _SetExcitatingOutOffData SetExcitatingOutOffData `(v  1 e 1 0 ]
+{
+"2826
+} 0
+"1416
+[v _SetMotorStartSPK SetMotorStartSPK `(v  1 e 1 0 ]
+{
+"1449
+} 0
+"140 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"142
+} 0
+"2745 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _SpkComparatorOn SpkComparatorOn `(v  1 e 1 0 ]
+{
+"2754
+} 0
+"2835
+[v _ExcitatingOutOn ExcitatingOutOn `(v  1 e 1 0 ]
+{
+"2859
+} 0
+"2944
+[v _SetOutPutLATX SetOutPutLATX `(v  1 e 1 0 ]
+{
+"2989
+} 0
+"1867
+[v _SetMotorPositionSearchStart SetMotorPositionSearchStart `(v  1 e 1 0 ]
+{
+[v SetMotorPositionSearchStart@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorPositionSearchStart@motor_no motor_no `uc  1 a 1 wreg ]
+"1871
+[v SetMotorPositionSearchStart@motor_no motor_no `uc  1 a 1 16 ]
+"1880
+} 0
+"1914
+[v _InitPositionSearch InitPositionSearch `(v  1 e 1 0 ]
+{
+[v InitPositionSearch@motor_no motor_no `uc  1 a 1 wreg ]
+"1916
+[v InitPositionSearch@i i `uc  1 a 1 14 ]
+"1914
+[v InitPositionSearch@motor_no motor_no `uc  1 a 1 wreg ]
+"1918
+[v InitPositionSearch@motor_no motor_no `uc  1 a 1 15 ]
+"1939
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"2504 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _DeactivateHandPosition DeactivateHandPosition `(v  1 e 1 0 ]
+{
+[v DeactivateHandPosition@motor_no motor_no `uc  1 a 1 wreg ]
+[v DeactivateHandPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"2506
+[v DeactivateHandPosition@motor_no motor_no `uc  1 a 1 2 ]
+"2509
+} 0
+"2016
+[v _SetMotorStop SetMotorStop `(v  1 e 1 0 ]
+{
+[v SetMotorStop@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorStop@motor_no motor_no `uc  1 a 1 wreg ]
+"2018
+[v SetMotorStop@motor_no motor_no `uc  1 a 1 2 ]
+"2022
+} 0
+"1643
+[v _SetAfterDetectLoadFunc SetAfterDetectLoadFunc `(v  1 e 1 0 ]
+{
+[v SetAfterDetectLoadFunc@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetAfterDetectLoadFunc@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetAfterDetectLoadFunc@func func `*.37(v  1 p 2 0 ]
+"1645
+[v SetAfterDetectLoadFunc@motor_no motor_no `uc  1 a 1 2 ]
+"1646
+} 0
+"1630
+[v _SetAfterMotorStopFunc SetAfterMotorStopFunc `(v  1 e 1 0 ]
+{
+[v SetAfterMotorStopFunc@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetAfterMotorStopFunc@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetAfterMotorStopFunc@func func `*.37(v  1 p 2 0 ]
+"1632
+[v SetAfterMotorStopFunc@motor_no motor_no `uc  1 a 1 2 ]
+"1633
+} 0
+"2621
+[v _GetIsMotorActive GetIsMotorActive `(uc  1 e 1 0 ]
+{
+[v GetIsMotorActive@motor_no motor_no `uc  1 a 1 wreg ]
+"2623
+[v GetIsMotorActive@res res `uc  1 a 1 3 ]
+"2621
+[v GetIsMotorActive@motor_no motor_no `uc  1 a 1 wreg ]
+"2623
+[v GetIsMotorActive@motor_no motor_no `uc  1 a 1 2 ]
+"2633
+} 0
+"1999
+[v _UpdateTargetPosition UpdateTargetPosition `(v  1 e 1 0 ]
+{
+[v UpdateTargetPosition@motor_no motor_no `uc  1 a 1 wreg ]
+[v UpdateTargetPosition@motor_no motor_no `uc  1 a 1 wreg ]
+[v UpdateTargetPosition@steps steps `s  1 p 2 13 ]
+"2002
+[v UpdateTargetPosition@motor_no motor_no `uc  1 a 1 17 ]
+"2006
+} 0
+"1727
+[v _CalcMotorStepCounter CalcMotorStepCounter `(v  1 e 1 0 ]
+{
+[v CalcMotorStepCounter@motor_no motor_no `uc  1 a 1 wreg ]
+"1729
+[v CalcMotorStepCounter@steps steps `s  1 a 2 24 ]
+"1730
+[v CalcMotorStepCounter@motor_bit motor_bit `uc  1 a 1 23 ]
+"1727
+[v CalcMotorStepCounter@motor_no motor_no `uc  1 a 1 wreg ]
+"1730
+[v CalcMotorStepCounter@motor_no motor_no `uc  1 a 1 26 ]
+"1767
+} 0
+"1687
+[v _SetMotorStepCounter SetMotorStepCounter `(v  1 e 1 0 ]
+{
+[v SetMotorStepCounter@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorStepCounter@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorStepCounter@steps steps `s  1 p 2 16 ]
+"1689
+[v SetMotorStepCounter@motor_no motor_no `uc  1 a 1 18 ]
+"1692
+} 0
+"1973
+[v _PriorUpdateCorrentPosition PriorUpdateCorrentPosition `(v  1 e 1 0 ]
+{
+[v PriorUpdateCorrentPosition@motor_no motor_no `uc  1 a 1 wreg ]
+[v PriorUpdateCorrentPosition@motor_no motor_no `uc  1 a 1 wreg ]
+"1975
+[v PriorUpdateCorrentPosition@motor_no motor_no `uc  1 a 1 15 ]
+"1989
+} 0
+"1949
+[v _CorrectPosition CorrectPosition `(v  1 e 1 0 ]
+{
+[v CorrectPosition@pos pos `*.39s  1 p 2 6 ]
+[v CorrectPosition@max max `s  1 p 2 8 ]
+"1962
+} 0
+"1846
+[v _SetMotorStart SetMotorStart `(v  1 e 1 0 ]
+{
+[v SetMotorStart@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorStart@motor_no motor_no `uc  1 a 1 wreg ]
+"1848
+[v SetMotorStart@motor_no motor_no `uc  1 a 1 1 ]
+"1857
+} 0
+"1334
+[v _StartPulseOutM1 StartPulseOutM1 `(v  1 e 1 0 ]
+{
+"1405
+} 0
+"1261
+[v _StartPulseOutM0 StartPulseOutM0 `(v  1 e 1 0 ]
+{
+"1330
+} 0
+"87 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+{
+"91
+} 0
+"1808 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _SetMotorFrequency SetMotorFrequency `(v  1 e 1 0 ]
+{
+[v SetMotorFrequency@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorFrequency@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorFrequency@type type `uc  1 p 1 0 ]
+[v SetMotorFrequency@set_freq set_freq `uc  1 p 1 1 ]
+"1810
+[v SetMotorFrequency@motor_no motor_no `uc  1 a 1 3 ]
+"1836
+} 0
+"1663
+[v _SetMotorDirection SetMotorDirection `(v  1 e 1 0 ]
+{
+[v SetMotorDirection@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorDirection@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorDirection@dir dir `uc  1 p 1 0 ]
+"1665
+[v SetMotorDirection@motor_no motor_no `uc  1 a 1 3 ]
+"1677
+} 0
+"1523
+[v _SetDriveType SetDriveType `(v  1 e 1 0 ]
+{
+[v SetDriveType@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetDriveType@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetDriveType@drive_type drive_type `uc  1 p 1 0 ]
+"1526
+[v SetDriveType@motor_no motor_no `uc  1 a 1 3 ]
+"1586
+} 0
+"1484
+[v _SetMotorEnableExcitating SetMotorEnableExcitating `(v  1 e 1 0 ]
+{
+[v SetMotorEnableExcitating@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorEnableExcitating@motor_no motor_no `uc  1 a 1 wreg ]
+"1486
+[v SetMotorEnableExcitating@motor_no motor_no `uc  1 a 1 2 ]
+"1489
+} 0
+"1499
+[v _SetMotorDisableExcitating SetMotorDisableExcitating `(v  1 e 1 0 ]
+{
+[v SetMotorDisableExcitating@motor_no motor_no `uc  1 a 1 wreg ]
+[v SetMotorDisableExcitating@motor_no motor_no `uc  1 a 1 wreg ]
+"1501
+[v SetMotorDisableExcitating@motor_no motor_no `uc  1 a 1 2 ]
+"1504
+} 0
+"795
+[v _InitPulsePositionTable InitPulsePositionTable `(v  1 e 1 0 ]
+{
+[v InitPulsePositionTable@motor_no motor_no `uc  1 a 1 wreg ]
+[v InitPulsePositionTable@motor_no motor_no `uc  1 a 1 wreg ]
+"797
+[v InitPulsePositionTable@motor_no motor_no `uc  1 a 1 1 ]
+"852
+} 0
+"52 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"119 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+{
+"128
+} 0
+"130
+[v _TMR2_CallBack TMR2_CallBack `(v  1 e 1 0 ]
+{
+"138
+} 0
+"863 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _TMR2_Interrupt TMR2_Interrupt `(v  1 e 1 0 ]
+{
+"1098
+} 0
+"144 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"147
+} 0
+"1108 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _TMR2_Interrupt_SPK TMR2_Interrupt_SPK `(v  1 e 1 0 ]
+{
+"1190
+} 0
+"2870
+[v _SetDataTRISxWork_SPK_OPEN SetDataTRISxWork_SPK_OPEN `(v  1 e 1 0 ]
+{
+"2912
+} 0
+"2923
+[v _SetDataTRISxWork_SPK_SHORT SetDataTRISxWork_SPK_SHORT `(v  1 e 1 0 ]
+{
+"2941
+} 0
+"93 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr2.c
+[v i1_TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+{
+"97
+} 0
+"2704 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\MotorDrive.c
+[v _VrsCheck VrsCheck `(v  1 e 1 0 ]
+{
+[v VrsCheck@motor_no motor_no `uc  1 a 1 wreg ]
+[v VrsCheck@motor_no motor_no `uc  1 a 1 wreg ]
+"2706
+[v VrsCheck@motor_no motor_no `uc  1 a 1 1 ]
+"2718
+} 0
+"3572
+[v _SetDataTRISxWork_M1_SPK_POL1_SHORT SetDataTRISxWork_M1_SPK_POL1_SHORT `(v  1 e 1 0 ]
+{
+"3587
+} 0
+"3560
+[v _SetDataTRISxWork_M1_SPK_POL1_OPEN SetDataTRISxWork_M1_SPK_POL1_OPEN `(v  1 e 1 0 ]
+{
+"3568
+} 0
+"3541
+[v _SetPulseOutLATxWork_M1_SHAKE_POL1_OFF SetPulseOutLATxWork_M1_SHAKE_POL1_OFF `(v  1 e 1 0 ]
+{
+"3556
+} 0
+"3509
+[v _SetDataTRISxWork_M1_SPK_POL0_SHORT SetDataTRISxWork_M1_SPK_POL0_SHORT `(v  1 e 1 0 ]
+{
+"3524
+} 0
+"3497
+[v _SetDataTRISxWork_M1_SPK_POL0_OPEN SetDataTRISxWork_M1_SPK_POL0_OPEN `(v  1 e 1 0 ]
+{
+"3505
+} 0
+"3478
+[v _SetPulseOutLATxWork_M1_SHAKE_POL0_OFF SetPulseOutLATxWork_M1_SHAKE_POL0_OFF `(v  1 e 1 0 ]
+{
+"3493
+} 0
+"3322
+[v _SetPulseOutLATxWork_M1_REV_POL1_OFF SetPulseOutLATxWork_M1_REV_POL1_OFF `(v  1 e 1 0 ]
+{
+"3332
+} 0
+"3310
+[v _SetPulseOutLATxWork_M1_REV_POL1_P2 SetPulseOutLATxWork_M1_REV_POL1_P2 `(v  1 e 1 0 ]
+{
+"3318
+} 0
+"3283
+[v _SetPulseOutLATxWork_M1_REV_POL0_OFF SetPulseOutLATxWork_M1_REV_POL0_OFF `(v  1 e 1 0 ]
+{
+"3293
+} 0
+"3271
+[v _SetPulseOutLATxWork_M1_REV_POL0_P2 SetPulseOutLATxWork_M1_REV_POL0_P2 `(v  1 e 1 0 ]
+{
+"3279
+} 0
+"3238
+[v _SetPulseOutLATxWork_M1_FWD_POL1_OFF SetPulseOutLATxWork_M1_FWD_POL1_OFF `(v  1 e 1 0 ]
+{
+"3254
+} 0
+"3226
+[v _SetPulseOutLATxWork_M1_FWD_POL1_P2 SetPulseOutLATxWork_M1_FWD_POL1_P2 `(v  1 e 1 0 ]
+{
+"3234
+} 0
+"3193
+[v _SetPulseOutLATxWork_M1_FWD_POL0_OFF SetPulseOutLATxWork_M1_FWD_POL0_OFF `(v  1 e 1 0 ]
+{
+"3209
+} 0
+"3181
+[v _SetPulseOutLATxWork_M1_FWD_POL0_P2 SetPulseOutLATxWork_M1_FWD_POL0_P2 `(v  1 e 1 0 ]
+{
+"3189
+} 0
+"3259
+[v _SetPulseOutLATxWork_M1_REV_POL0_P1 SetPulseOutLATxWork_M1_REV_POL0_P1 `(v  1 e 1 0 ]
+{
+"3267
+} 0
+"3298
+[v _SetPulseOutLATxWork_M1_REV_POL1_P1 SetPulseOutLATxWork_M1_REV_POL1_P1 `(v  1 e 1 0 ]
+{
+"3306
+} 0
+"3169
+[v _SetPulseOutLATxWork_M1_FWD_POL0_P1 SetPulseOutLATxWork_M1_FWD_POL0_P1 `(v  1 e 1 0 ]
+{
+"3177
+} 0
+"3214
+[v _SetPulseOutLATxWork_M1_FWD_POL1_P1 SetPulseOutLATxWork_M1_FWD_POL1_P1 `(v  1 e 1 0 ]
+{
+"3222
+} 0
+"3466
+[v _SetPulseOutLATxWork_M1_SHAKE_POL0_P0 SetPulseOutLATxWork_M1_SHAKE_POL0_P0 `(v  1 e 1 0 ]
+{
+"3474
+} 0
+"3529
+[v _SetPulseOutLATxWork_M1_SHAKE_POL1_P0 SetPulseOutLATxWork_M1_SHAKE_POL1_P0 `(v  1 e 1 0 ]
+{
+"3537
+} 0
+"3445
+[v _SetDataTRISxWork_M0_SPK_POL1_SHORT SetDataTRISxWork_M0_SPK_POL1_SHORT `(v  1 e 1 0 ]
+{
+"3460
+} 0
+"3433
+[v _SetDataTRISxWork_M0_SPK_POL1_OPEN SetDataTRISxWork_M0_SPK_POL1_OPEN `(v  1 e 1 0 ]
+{
+"3441
+} 0
+"3414
+[v _SetPulseOutLATxWork_M0_SHAKE_POL1_OFF SetPulseOutLATxWork_M0_SHAKE_POL1_OFF `(v  1 e 1 0 ]
+{
+"3429
+} 0
+"3382
+[v _SetDataTRISxWork_M0_SPK_POL0_SHORT SetDataTRISxWork_M0_SPK_POL0_SHORT `(v  1 e 1 0 ]
+{
+"3397
+} 0
+"3370
+[v _SetDataTRISxWork_M0_SPK_POL0_OPEN SetDataTRISxWork_M0_SPK_POL0_OPEN `(v  1 e 1 0 ]
+{
+"3378
+} 0
+"3351
+[v _SetPulseOutLATxWork_M0_SHAKE_POL0_OFF SetPulseOutLATxWork_M0_SHAKE_POL0_OFF `(v  1 e 1 0 ]
+{
+"3366
+} 0
+"3153
+[v _SetPulseOutLATxWork_M0_REV_POL1_OFF SetPulseOutLATxWork_M0_REV_POL1_OFF `(v  1 e 1 0 ]
+{
+"3163
+} 0
+"3141
+[v _SetPulseOutLATxWork_M0_REV_POL1_P2 SetPulseOutLATxWork_M0_REV_POL1_P2 `(v  1 e 1 0 ]
+{
+"3149
+} 0
+"3114
+[v _SetPulseOutLATxWork_M0_REV_POL0_OFF SetPulseOutLATxWork_M0_REV_POL0_OFF `(v  1 e 1 0 ]
+{
+"3124
+} 0
+"3102
+[v _SetPulseOutLATxWork_M0_REV_POL0_P2 SetPulseOutLATxWork_M0_REV_POL0_P2 `(v  1 e 1 0 ]
+{
+"3110
+} 0
+"3069
+[v _SetPulseOutLATxWork_M0_FWD_POL1_OFF SetPulseOutLATxWork_M0_FWD_POL1_OFF `(v  1 e 1 0 ]
+{
+"3085
+} 0
+"3057
+[v _SetPulseOutLATxWork_M0_FWD_POL1_P2 SetPulseOutLATxWork_M0_FWD_POL1_P2 `(v  1 e 1 0 ]
+{
+"3065
+} 0
+"3024
+[v _SetPulseOutLATxWork_M0_FWD_POL0_OFF SetPulseOutLATxWork_M0_FWD_POL0_OFF `(v  1 e 1 0 ]
+{
+"3040
+} 0
+"3012
+[v _SetPulseOutLATxWork_M0_FWD_POL0_P2 SetPulseOutLATxWork_M0_FWD_POL0_P2 `(v  1 e 1 0 ]
+{
+"3020
+} 0
+"3090
+[v _SetPulseOutLATxWork_M0_REV_POL0_P1 SetPulseOutLATxWork_M0_REV_POL0_P1 `(v  1 e 1 0 ]
+{
+"3098
+} 0
+"3129
+[v _SetPulseOutLATxWork_M0_REV_POL1_P1 SetPulseOutLATxWork_M0_REV_POL1_P1 `(v  1 e 1 0 ]
+{
+"3137
+} 0
+"3000
+[v _SetPulseOutLATxWork_M0_FWD_POL0_P1 SetPulseOutLATxWork_M0_FWD_POL0_P1 `(v  1 e 1 0 ]
+{
+"3008
+} 0
+"3045
+[v _SetPulseOutLATxWork_M0_FWD_POL1_P1 SetPulseOutLATxWork_M0_FWD_POL1_P1 `(v  1 e 1 0 ]
+{
+"3053
+} 0
+"3339
+[v _SetPulseOutLATxWork_M0_SHAKE_POL0_P0 SetPulseOutLATxWork_M0_SHAKE_POL0_P0 `(v  1 e 1 0 ]
+{
+"3347
+} 0
+"3402
+[v _SetPulseOutLATxWork_M0_SHAKE_POL1_P0 SetPulseOutLATxWork_M0_SHAKE_POL1_P0 `(v  1 e 1 0 ]
+{
+"3410
+} 0
+"2669
+[v _ComparatorOn ComparatorOn `(v  1 e 1 0 ]
+{
+[v ComparatorOn@motor_no motor_no `uc  1 a 1 wreg ]
+[v ComparatorOn@motor_no motor_no `uc  1 a 1 wreg ]
+"2671
+[v ComparatorOn@motor_no motor_no `uc  1 a 1 0 ]
+"2695
+} 0
+"2650
+[v _ComparatorOff ComparatorOff `(v  1 e 1 0 ]
+{
+[v ComparatorOff@motor_no motor_no `uc  1 a 1 wreg ]
+[v ComparatorOff@motor_no motor_no `uc  1 a 1 wreg ]
+"2652
+[v ComparatorOff@motor_no motor_no `uc  1 a 1 0 ]
+"2661
+} 0
+"157 C:\Users\user\MPLABXProjects\AG_demo_Touch_Read.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"167
+} 0
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
+"140
+} 0
+"169
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+{
+"176
+} 0
+"182
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"185
+} 0

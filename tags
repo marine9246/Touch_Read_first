@@ -1,0 +1,1219 @@
+!_TAG_FILE_ENCODING	cp932	//
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_JP_AUTHOR	HIGASHI Hirohito	/Twitter: @h_east/
+!_TAG_PROGRAM_JP_URL	http://hp.vector.co.jp/authors/VA025040/	//
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8J2	//
+ANALOG	.\mcc_generated_files\pin_manager.h	62;"	d
+ActivateHandPosition	.\MotorDrive.c	/^void ActivateHandPosition( UB motor_no )$/;"	f
+AfterDetectedLoadPosition	.\MotorDrive.c	/^void AfterDetectedLoadPosition( UB motor_no )$/;"	f
+B	.\data_types.h	/^	} B;$/;"	m	union:__anon1	typeref:struct:__anon1::__anon2
+B	.\data_types.h	/^typedef		signed char	B;							\/\/ $BId9fIU$-(B 8$B%S%C%H@0?t(B$/;"	t
+BIT_MOTOR_M0	.\MotorDrive.h	27;"	d
+BIT_MOTOR_M1	.\MotorDrive.h	28;"	d
+BIT_PORTA_LED_ON	.\MotorDrive.c	155;"	d	file:
+BIT_PORTA_M0_ALL	.\MotorDrive.c	41;"	d	file:
+BIT_PORTA_M0_FWD_POL0_P1	.\MotorDrive.c	242;"	d	file:
+BIT_PORTA_M0_FWD_POL0_P2	.\MotorDrive.c	246;"	d	file:
+BIT_PORTA_M0_FWD_POL1_P1	.\MotorDrive.c	252;"	d	file:
+BIT_PORTA_M0_FWD_POL1_P2	.\MotorDrive.c	256;"	d	file:
+BIT_PORTA_M0_OUT1	.\MotorDrive.c	45;"	d	file:
+BIT_PORTA_M0_OUT2	.\MotorDrive.c	49;"	d	file:
+BIT_PORTA_M0_OUT3	.\MotorDrive.c	53;"	d	file:
+BIT_PORTA_M0_OUT4	.\MotorDrive.c	57;"	d	file:
+BIT_PORTA_M0_REV_POL0_P1	.\MotorDrive.c	263;"	d	file:
+BIT_PORTA_M0_REV_POL0_P2	.\MotorDrive.c	267;"	d	file:
+BIT_PORTA_M0_REV_POL1_P1	.\MotorDrive.c	273;"	d	file:
+BIT_PORTA_M0_REV_POL1_P2	.\MotorDrive.c	277;"	d	file:
+BIT_PORTA_M0_SHAKE_POL0_P0	.\MotorDrive.c	182;"	d	file:
+BIT_PORTA_M0_SHAKE_POL1_P0	.\MotorDrive.c	196;"	d	file:
+BIT_PORTA_M1_ALL	.\MotorDrive.c	63;"	d	file:
+BIT_PORTA_M1_FWD_POL0_P1	.\MotorDrive.c	285;"	d	file:
+BIT_PORTA_M1_FWD_POL0_P2	.\MotorDrive.c	289;"	d	file:
+BIT_PORTA_M1_FWD_POL1_P1	.\MotorDrive.c	295;"	d	file:
+BIT_PORTA_M1_FWD_POL1_P2	.\MotorDrive.c	299;"	d	file:
+BIT_PORTA_M1_OUT1	.\MotorDrive.c	67;"	d	file:
+BIT_PORTA_M1_OUT2	.\MotorDrive.c	71;"	d	file:
+BIT_PORTA_M1_OUT3	.\MotorDrive.c	75;"	d	file:
+BIT_PORTA_M1_OUT4	.\MotorDrive.c	79;"	d	file:
+BIT_PORTA_M1_REV_POL0_P1	.\MotorDrive.c	306;"	d	file:
+BIT_PORTA_M1_REV_POL0_P2	.\MotorDrive.c	310;"	d	file:
+BIT_PORTA_M1_REV_POL1_P1	.\MotorDrive.c	316;"	d	file:
+BIT_PORTA_M1_REV_POL1_P2	.\MotorDrive.c	320;"	d	file:
+BIT_PORTA_M1_SHAKE_POL0_P0	.\MotorDrive.c	212;"	d	file:
+BIT_PORTA_M1_SHAKE_POL1_P0	.\MotorDrive.c	226;"	d	file:
+BIT_PORTA_OUT1	.\MotorDrive.c	114;"	d	file:
+BIT_PORTB_M0_ALL	.\MotorDrive.c	42;"	d	file:
+BIT_PORTB_M0_FWD_POL0_P1	.\MotorDrive.c	243;"	d	file:
+BIT_PORTB_M0_FWD_POL0_P2	.\MotorDrive.c	247;"	d	file:
+BIT_PORTB_M0_FWD_POL1_P1	.\MotorDrive.c	253;"	d	file:
+BIT_PORTB_M0_FWD_POL1_P2	.\MotorDrive.c	257;"	d	file:
+BIT_PORTB_M0_OUT1	.\MotorDrive.c	46;"	d	file:
+BIT_PORTB_M0_OUT2	.\MotorDrive.c	50;"	d	file:
+BIT_PORTB_M0_OUT3	.\MotorDrive.c	54;"	d	file:
+BIT_PORTB_M0_OUT4	.\MotorDrive.c	58;"	d	file:
+BIT_PORTB_M0_REV_POL0_P1	.\MotorDrive.c	264;"	d	file:
+BIT_PORTB_M0_REV_POL0_P2	.\MotorDrive.c	268;"	d	file:
+BIT_PORTB_M0_REV_POL1_P1	.\MotorDrive.c	274;"	d	file:
+BIT_PORTB_M0_REV_POL1_P2	.\MotorDrive.c	278;"	d	file:
+BIT_PORTB_M0_SHAKE_POL0_P0	.\MotorDrive.c	183;"	d	file:
+BIT_PORTB_M0_SHAKE_POL1_P0	.\MotorDrive.c	197;"	d	file:
+BIT_PORTB_M1_ALL	.\MotorDrive.c	64;"	d	file:
+BIT_PORTB_M1_FWD_POL0_P1	.\MotorDrive.c	286;"	d	file:
+BIT_PORTB_M1_FWD_POL0_P2	.\MotorDrive.c	290;"	d	file:
+BIT_PORTB_M1_FWD_POL1_P1	.\MotorDrive.c	296;"	d	file:
+BIT_PORTB_M1_FWD_POL1_P2	.\MotorDrive.c	300;"	d	file:
+BIT_PORTB_M1_OUT1	.\MotorDrive.c	68;"	d	file:
+BIT_PORTB_M1_OUT2	.\MotorDrive.c	72;"	d	file:
+BIT_PORTB_M1_OUT3	.\MotorDrive.c	76;"	d	file:
+BIT_PORTB_M1_OUT4	.\MotorDrive.c	80;"	d	file:
+BIT_PORTB_M1_REV_POL0_P1	.\MotorDrive.c	307;"	d	file:
+BIT_PORTB_M1_REV_POL0_P2	.\MotorDrive.c	311;"	d	file:
+BIT_PORTB_M1_REV_POL1_P1	.\MotorDrive.c	317;"	d	file:
+BIT_PORTB_M1_REV_POL1_P2	.\MotorDrive.c	321;"	d	file:
+BIT_PORTB_M1_SHAKE_POL0_P0	.\MotorDrive.c	213;"	d	file:
+BIT_PORTB_M1_SHAKE_POL1_P0	.\MotorDrive.c	227;"	d	file:
+BIT_PORTB_OUT1	.\MotorDrive.c	115;"	d	file:
+BIT_PORTC_M0_ALL	.\MotorDrive.c	43;"	d	file:
+BIT_PORTC_M0_FWD_POL0_P1	.\MotorDrive.c	244;"	d	file:
+BIT_PORTC_M0_FWD_POL0_P2	.\MotorDrive.c	248;"	d	file:
+BIT_PORTC_M0_FWD_POL1_P1	.\MotorDrive.c	254;"	d	file:
+BIT_PORTC_M0_FWD_POL1_P2	.\MotorDrive.c	258;"	d	file:
+BIT_PORTC_M0_OUT1	.\MotorDrive.c	47;"	d	file:
+BIT_PORTC_M0_OUT2	.\MotorDrive.c	51;"	d	file:
+BIT_PORTC_M0_OUT3	.\MotorDrive.c	55;"	d	file:
+BIT_PORTC_M0_OUT4	.\MotorDrive.c	59;"	d	file:
+BIT_PORTC_M0_REV_POL0_P1	.\MotorDrive.c	265;"	d	file:
+BIT_PORTC_M0_REV_POL0_P2	.\MotorDrive.c	269;"	d	file:
+BIT_PORTC_M0_REV_POL1_P1	.\MotorDrive.c	275;"	d	file:
+BIT_PORTC_M0_REV_POL1_P2	.\MotorDrive.c	279;"	d	file:
+BIT_PORTC_M0_SHAKE_POL0_P0	.\MotorDrive.c	184;"	d	file:
+BIT_PORTC_M0_SHAKE_POL1_P0	.\MotorDrive.c	198;"	d	file:
+BIT_PORTC_M1_ALL	.\MotorDrive.c	65;"	d	file:
+BIT_PORTC_M1_FWD_POL0_P1	.\MotorDrive.c	287;"	d	file:
+BIT_PORTC_M1_FWD_POL0_P2	.\MotorDrive.c	291;"	d	file:
+BIT_PORTC_M1_FWD_POL1_P1	.\MotorDrive.c	297;"	d	file:
+BIT_PORTC_M1_FWD_POL1_P2	.\MotorDrive.c	301;"	d	file:
+BIT_PORTC_M1_OUT1	.\MotorDrive.c	69;"	d	file:
+BIT_PORTC_M1_OUT2	.\MotorDrive.c	73;"	d	file:
+BIT_PORTC_M1_OUT3	.\MotorDrive.c	77;"	d	file:
+BIT_PORTC_M1_OUT4	.\MotorDrive.c	81;"	d	file:
+BIT_PORTC_M1_REV_POL0_P1	.\MotorDrive.c	308;"	d	file:
+BIT_PORTC_M1_REV_POL0_P2	.\MotorDrive.c	312;"	d	file:
+BIT_PORTC_M1_REV_POL1_P1	.\MotorDrive.c	318;"	d	file:
+BIT_PORTC_M1_REV_POL1_P2	.\MotorDrive.c	322;"	d	file:
+BIT_PORTC_M1_SHAKE_POL0_P0	.\MotorDrive.c	214;"	d	file:
+BIT_PORTC_M1_SHAKE_POL1_P0	.\MotorDrive.c	228;"	d	file:
+BIT_PORTC_OUT1	.\MotorDrive.c	116;"	d	file:
+BIT_TRISA_M0_ALL	.\MotorDrive.c	85;"	d	file:
+BIT_TRISA_M0_DRV	.\MotorDrive.c	89;"	d	file:
+BIT_TRISA_M0_O3_OPN	.\MotorDrive.c	97;"	d	file:
+BIT_TRISA_M0_O3_SHT	.\MotorDrive.c	93;"	d	file:
+BIT_TRISA_M0_O4_OPN	.\MotorDrive.c	105;"	d	file:
+BIT_TRISA_M0_O4_SHT	.\MotorDrive.c	101;"	d	file:
+BIT_TRISA_M0_SHT	.\MotorDrive.c	110;"	d	file:
+BIT_TRISA_M0_SPK_POL0_OPN	.\MotorDrive.c	186;"	d	file:
+BIT_TRISA_M0_SPK_POL0_SHT	.\MotorDrive.c	190;"	d	file:
+BIT_TRISA_M0_SPK_POL1_OPN	.\MotorDrive.c	200;"	d	file:
+BIT_TRISA_M0_SPK_POL1_SHT	.\MotorDrive.c	204;"	d	file:
+BIT_TRISA_M1_ALL	.\MotorDrive.c	122;"	d	file:
+BIT_TRISA_M1_DRV	.\MotorDrive.c	126;"	d	file:
+BIT_TRISA_M1_O3_OPN	.\MotorDrive.c	134;"	d	file:
+BIT_TRISA_M1_O3_SHT	.\MotorDrive.c	130;"	d	file:
+BIT_TRISA_M1_O4_OPN	.\MotorDrive.c	142;"	d	file:
+BIT_TRISA_M1_O4_SHT	.\MotorDrive.c	138;"	d	file:
+BIT_TRISA_M1_SHT	.\MotorDrive.c	147;"	d	file:
+BIT_TRISA_M1_SPK_POL0_OPN	.\MotorDrive.c	216;"	d	file:
+BIT_TRISA_M1_SPK_POL0_SHT	.\MotorDrive.c	220;"	d	file:
+BIT_TRISA_M1_SPK_POL1_OPN	.\MotorDrive.c	230;"	d	file:
+BIT_TRISA_M1_SPK_POL1_SHT	.\MotorDrive.c	234;"	d	file:
+BIT_TRISB_M0_ALL	.\MotorDrive.c	86;"	d	file:
+BIT_TRISB_M0_DRV	.\MotorDrive.c	90;"	d	file:
+BIT_TRISB_M0_O3_OPN	.\MotorDrive.c	98;"	d	file:
+BIT_TRISB_M0_O3_SHT	.\MotorDrive.c	94;"	d	file:
+BIT_TRISB_M0_O4_OPN	.\MotorDrive.c	106;"	d	file:
+BIT_TRISB_M0_O4_SHT	.\MotorDrive.c	102;"	d	file:
+BIT_TRISB_M0_SHT	.\MotorDrive.c	111;"	d	file:
+BIT_TRISB_M0_SPK_POL0_OPN	.\MotorDrive.c	187;"	d	file:
+BIT_TRISB_M0_SPK_POL0_SHT	.\MotorDrive.c	191;"	d	file:
+BIT_TRISB_M0_SPK_POL1_OPN	.\MotorDrive.c	201;"	d	file:
+BIT_TRISB_M0_SPK_POL1_SHT	.\MotorDrive.c	205;"	d	file:
+BIT_TRISB_M1_ALL	.\MotorDrive.c	123;"	d	file:
+BIT_TRISB_M1_DRV	.\MotorDrive.c	127;"	d	file:
+BIT_TRISB_M1_O3_OPN	.\MotorDrive.c	135;"	d	file:
+BIT_TRISB_M1_O3_SHT	.\MotorDrive.c	131;"	d	file:
+BIT_TRISB_M1_O4_OPN	.\MotorDrive.c	143;"	d	file:
+BIT_TRISB_M1_O4_SHT	.\MotorDrive.c	139;"	d	file:
+BIT_TRISB_M1_SHT	.\MotorDrive.c	148;"	d	file:
+BIT_TRISB_M1_SPK_POL0_OPN	.\MotorDrive.c	217;"	d	file:
+BIT_TRISB_M1_SPK_POL0_SHT	.\MotorDrive.c	221;"	d	file:
+BIT_TRISB_M1_SPK_POL1_OPN	.\MotorDrive.c	231;"	d	file:
+BIT_TRISB_M1_SPK_POL1_SHT	.\MotorDrive.c	235;"	d	file:
+BIT_TRISC_M0_ALL	.\MotorDrive.c	87;"	d	file:
+BIT_TRISC_M0_DRV	.\MotorDrive.c	91;"	d	file:
+BIT_TRISC_M0_O3_OPN	.\MotorDrive.c	99;"	d	file:
+BIT_TRISC_M0_O3_SHT	.\MotorDrive.c	95;"	d	file:
+BIT_TRISC_M0_O4_OPN	.\MotorDrive.c	107;"	d	file:
+BIT_TRISC_M0_O4_SHT	.\MotorDrive.c	103;"	d	file:
+BIT_TRISC_M0_SHT	.\MotorDrive.c	112;"	d	file:
+BIT_TRISC_M0_SPK_POL0_OPN	.\MotorDrive.c	188;"	d	file:
+BIT_TRISC_M0_SPK_POL0_SHT	.\MotorDrive.c	192;"	d	file:
+BIT_TRISC_M0_SPK_POL1_OPN	.\MotorDrive.c	202;"	d	file:
+BIT_TRISC_M0_SPK_POL1_SHT	.\MotorDrive.c	206;"	d	file:
+BIT_TRISC_M1_ALL	.\MotorDrive.c	124;"	d	file:
+BIT_TRISC_M1_DRV	.\MotorDrive.c	128;"	d	file:
+BIT_TRISC_M1_O3_OPN	.\MotorDrive.c	136;"	d	file:
+BIT_TRISC_M1_O3_SHT	.\MotorDrive.c	132;"	d	file:
+BIT_TRISC_M1_O4_OPN	.\MotorDrive.c	144;"	d	file:
+BIT_TRISC_M1_O4_SHT	.\MotorDrive.c	140;"	d	file:
+BIT_TRISC_M1_SHT	.\MotorDrive.c	149;"	d	file:
+BIT_TRISC_M1_SPK_POL0_OPN	.\MotorDrive.c	218;"	d	file:
+BIT_TRISC_M1_SPK_POL0_SHT	.\MotorDrive.c	222;"	d	file:
+BIT_TRISC_M1_SPK_POL1_OPN	.\MotorDrive.c	232;"	d	file:
+BIT_TRISC_M1_SPK_POL1_SHT	.\MotorDrive.c	236;"	d	file:
+BOOL	.\data_types.h	/^typedef		unsigned char	BOOL;$/;"	t
+C1_OUT_ANS	.\mcc_generated_files\pin_manager.h	90;"	d
+C1_OUT_GetValue	.\mcc_generated_files\pin_manager.h	94;"	d
+C1_OUT_LAT	.\mcc_generated_files\pin_manager.h	87;"	d
+C1_OUT_PORT	.\mcc_generated_files\pin_manager.h	88;"	d
+C1_OUT_ResetPullup	.\mcc_generated_files\pin_manager.h	98;"	d
+C1_OUT_SetAnalogMode	.\mcc_generated_files\pin_manager.h	99;"	d
+C1_OUT_SetDigitalInput	.\mcc_generated_files\pin_manager.h	95;"	d
+C1_OUT_SetDigitalMode	.\mcc_generated_files\pin_manager.h	100;"	d
+C1_OUT_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	96;"	d
+C1_OUT_SetHigh	.\mcc_generated_files\pin_manager.h	91;"	d
+C1_OUT_SetLow	.\mcc_generated_files\pin_manager.h	92;"	d
+C1_OUT_SetPullup	.\mcc_generated_files\pin_manager.h	97;"	d
+C1_OUT_TRIS	.\mcc_generated_files\pin_manager.h	86;"	d
+C1_OUT_Toggle	.\mcc_generated_files\pin_manager.h	93;"	d
+C1_OUT_WPU	.\mcc_generated_files\pin_manager.h	89;"	d
+C2OUT_GetValue	.\mcc_generated_files\pin_manager.h	256;"	d
+C2OUT_LAT	.\mcc_generated_files\pin_manager.h	251;"	d
+C2OUT_PORT	.\mcc_generated_files\pin_manager.h	252;"	d
+C2OUT_SetDigitalInput	.\mcc_generated_files\pin_manager.h	257;"	d
+C2OUT_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	258;"	d
+C2OUT_SetHigh	.\mcc_generated_files\pin_manager.h	253;"	d
+C2OUT_SetLow	.\mcc_generated_files\pin_manager.h	254;"	d
+C2OUT_TRIS	.\mcc_generated_files\pin_manager.h	250;"	d
+C2OUT_Toggle	.\mcc_generated_files\pin_manager.h	255;"	d
+CHANGE_POSITION_OPEN	.\MotorDrive.c	157;"	d	file:
+CHANGE_POSITION_SHORT	.\MotorDrive.c	158;"	d	file:
+CMD_M0_DISABLE_EXCITATING	.\spi_control.c	110;"	d	file:
+CMD_M0_ENABLE_EXCITATING	.\spi_control.c	109;"	d	file:
+CMD_M0_FWD_NORMAL	.\spi_control.c	99;"	d	file:
+CMD_M0_FWD_POSITION_CTL	.\spi_control.c	105;"	d	file:
+CMD_M0_FWD_WITH_CORRECT	.\spi_control.c	104;"	d	file:
+CMD_M0_FWD_WITH_SHAKE	.\spi_control.c	101;"	d	file:
+CMD_M0_REV_NORMAL	.\spi_control.c	100;"	d	file:
+CMD_M0_REV_POSITION_CTL	.\spi_control.c	106;"	d	file:
+CMD_M0_SEARCH_1008_POSITION	.\spi_control.c	111;"	d	file:
+CMD_M0_SEARCH_BASE_POSITION	.\spi_control.c	103;"	d	file:
+CMD_M0_SEARCH_LOAD_POSITION	.\spi_control.c	102;"	d	file:
+CMD_M0_START_DETECT_VRS	.\spi_control.c	107;"	d	file:
+CMD_M0_STOP_DETECT_VRS	.\spi_control.c	108;"	d	file:
+CMD_M1_DISABLE_EXCITATING	.\spi_control.c	124;"	d	file:
+CMD_M1_ENABLE_EXCITATING	.\spi_control.c	123;"	d	file:
+CMD_M1_FWD_NORMAL	.\spi_control.c	113;"	d	file:
+CMD_M1_FWD_POSITION_CTL	.\spi_control.c	119;"	d	file:
+CMD_M1_FWD_WITH_CORRECT	.\spi_control.c	118;"	d	file:
+CMD_M1_FWD_WITH_SHAKE	.\spi_control.c	115;"	d	file:
+CMD_M1_REV_NORMAL	.\spi_control.c	114;"	d	file:
+CMD_M1_REV_POSITION_CTL	.\spi_control.c	120;"	d	file:
+CMD_M1_SEARCH_1008_POSITION	.\spi_control.c	125;"	d	file:
+CMD_M1_SEARCH_BASE_POSITION	.\spi_control.c	117;"	d	file:
+CMD_M1_SEARCH_LOAD_POSITION	.\spi_control.c	116;"	d	file:
+CMD_M1_START_DETECT_VRS	.\spi_control.c	121;"	d	file:
+CMD_M1_STOP_DETECT_VRS	.\spi_control.c	122;"	d	file:
+CMP1_BASE	.\MotorDrive.c	164;"	d	file:
+CMP1_ON	.\MotorDrive.c	165;"	d	file:
+CMP1_VCOMP_BASE	.\MotorDrive.c	166;"	d	file:
+CMP2_BASE	.\MotorDrive.c	170;"	d	file:
+CMP2_ON	.\MotorDrive.c	171;"	d	file:
+CMP2_VCOMP_BASE	.\MotorDrive.c	172;"	d	file:
+CalcMotorFwdStepCounter	.\MotorDrive.c	/^void CalcMotorFwdStepCounter( UB motor_no )$/;"	f
+CalcMotorStepCounter	.\MotorDrive.c	/^void CalcMotorStepCounter( UB motor_no )$/;"	f
+ComparatorOff	.\MotorDrive.c	/^void ComparatorOff( UB motor_no )$/;"	f
+ComparatorOn	.\MotorDrive.c	/^void ComparatorOn( UB motor_no )$/;"	f
+CorrectPosition	.\MotorDrive.c	/^void CorrectPosition( H *pos, H max )$/;"	f
+DAC_GetOutput	.\mcc_generated_files\dac.c	/^uint8_t DAC_GetOutput(void)$/;"	f
+DAC_H	.\mcc_generated_files\dac.h	48;"	d
+DAC_Initialize	.\mcc_generated_files\dac.c	/^void DAC_Initialize(void)$/;"	f
+DAC_SetOutput	.\mcc_generated_files\dac.c	/^void DAC_SetOutput(uint8_t inputData)$/;"	f
+DATA_TYPES_H	.\data_types.h	9;"	d
+DEBUG_SPI_CTRL	.\spi_control.c	47;"	d	file:
+DEVICE_CONFIG_H	.\mcc_generated_files\device_config.h	48;"	d
+DIGITAL	.\mcc_generated_files\pin_manager.h	63;"	d
+DOUBLE	.\data_types.h	/^typedef		double			DOUBLE;						\/\/ $BG\\@:EY(B(64$B%S%C%H(B)$BIbF0>.?tE@(B$/;"	t
+DRIVE_ACT_CORRECT_POSITION	.\MotorDrive.h	/^	DRIVE_ACT_CORRECT_POSITION,		\/\/ $B0LCV$:$lJd@50\\F0(B$/;"	e	enum:DRIVE_TYPE
+DRIVE_CHECK_POSITION	.\MotorDrive.h	/^	DRIVE_CHECK_POSITION,			\/\/ $B0LCV3NG'5!G=IU$-$N0\\F0(B$/;"	e	enum:DRIVE_TYPE
+DRIVE_CORRECT_BASE_POSITION	.\MotorDrive.h	/^	DRIVE_CORRECT_BASE_POSITION,	\/\/ $B0LCV$:$l8!=P8e$N0LCVC5:w0\\F0(B$/;"	e	enum:DRIVE_TYPE
+DRIVE_SEARCH_1008_POSITION	.\MotorDrive.h	/^	DRIVE_SEARCH_1008_POSITION$/;"	e	enum:DRIVE_TYPE
+DRIVE_SEARCH_BASE_POSITION	.\MotorDrive.h	/^	DRIVE_SEARCH_BASE_POSITION,		\/\/ $B4p=`0LCV%5!<%AF0:nCf(B$/;"	e	enum:DRIVE_TYPE
+DRIVE_SIMPLE	.\MotorDrive.h	/^	DRIVE_SIMPLE = 0,				\/\/ $BC1=c0\\F0(B$/;"	e	enum:DRIVE_TYPE
+DRIVE_TYPE	.\MotorDrive.h	/^enum DRIVE_TYPE {$/;"	g
+DeactivateHandPosition	.\MotorDrive.c	/^void DeactivateHandPosition( UB motor_no )$/;"	f
+DetermineBasePosition	.\MotorDrive.c	/^void DetermineBasePosition( UB motor_no )$/;"	f
+EXCITATING_OFF_MSK_TIME	.\MotorDrive.c	152;"	d	file:
+EXCITATING_TIME	.\MotorDrive.c	153;"	d	file:
+ExcitatingOutOff	.\MotorDrive.c	/^void ExcitatingOutOff(void)$/;"	f
+ExcitatingOutOn	.\MotorDrive.c	/^void ExcitatingOutOn(void){$/;"	f
+FALSE	.\data_types.h	31;"	d
+FLOAT	.\data_types.h	/^typedef		float			FLOAT;						\/\/ $BC1@:EY(B(32$B%S%C%H(B)$BIbF0>.?tE@(B$/;"	t
+FOWARD	.\MotorDrive.h	30;"	d
+FREQ_SETTING_TYPE	.\MotorDrive.h	/^enum FREQ_SETTING_TYPE {$/;"	g
+FREQ_SET_EXTERNAL_CONTROL	.\MotorDrive.h	/^	FREQ_SET_EXTERNAL_CONTROL$/;"	e	enum:FREQ_SETTING_TYPE
+FREQ_SET_SELF_CONTROL_NORMAL	.\MotorDrive.h	/^	FREQ_SET_SELF_CONTROL_NORMAL,$/;"	e	enum:FREQ_SETTING_TYPE
+FREQ_SET_SELF_CONTROL_SHAKE	.\MotorDrive.h	/^	FREQ_SET_SELF_CONTROL_SHAKE,$/;"	e	enum:FREQ_SETTING_TYPE
+GetAfterDetectLoadFunc	.\MotorDrive.c	/^void *GetAfterDetectLoadFunc( UB motor_no )$/;"	f
+GetIsMotorActive	.\MotorDrive.c	/^UB GetIsMotorActive( UB motor_no )$/;"	f
+H	.\data_types.h	/^typedef		signed short	H;							\/\/ $BId9fIU$-(B16$B%S%C%H@0?t(B$/;"	t
+HIGH	.\data_types.h	48;"	d
+HIGH	.\mcc_generated_files\pin_manager.h	59;"	d
+ID_CMD_DISABLE_EXCITATING	.\spi_control.c	/^	ID_CMD_DISABLE_EXCITATING = 12,					\/\/ VRS$B8!=P$7$F$b!"Ne<'%Q%k%9=PNO$7$J$$(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_ENABLE_EXCITATING	.\spi_control.c	/^	ID_CMD_ENABLE_EXCITATING = 11,					\/\/ VRS$B8!=P$7$?$i!"Ne<'%Q%k%9=PNO$9$k(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_FWD_NORMAL	.\spi_control.c	/^    ID_CMD_FWD_NORMAL = 1,                          \/\/ $BDL>o$N@5E>(B1$BH\/6nF0(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_FWD_NULL	.\spi_control.c	/^    ID_CMD_FWD_NULL = 0,$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_FWD_POSITION_CTL	.\spi_control.c	/^	ID_CMD_FWD_POSITION_CTL = 7,					\/\/ $B0LCV4IM}5!G=IU$-$N@5E>(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_FWD_WITH_CORRECT	.\spi_control.c	/^    ID_CMD_FWD_WITH_CORRECT = 6,                    \/\/ $B4p=`0LCV%:%lJd@5IU$-$N1??K!"0LCV%:%l8!=P$7$?$i!"<+F0Jd@5(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_FWD_WITH_SHAKE	.\spi_control.c	/^    ID_CMD_FWD_WITH_SHAKE = 3,                      \/\/ $BMIF0%Q%k%9IU$-$N@5E>!"7k2L$O!V!!!!!W$KF~$k(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_M0	.\spi_control.c	/^    ID_CMD_M0 = 0xB0,$/;"	e	enum:ID_CMD_MOTOR	file:
+ID_CMD_M1	.\spi_control.c	/^    ID_CMD_M1 = 0xC0$/;"	e	enum:ID_CMD_MOTOR	file:
+ID_CMD_MOTOR	.\spi_control.c	/^enum ID_CMD_MOTOR {$/;"	g	file:
+ID_CMD_REV_NORMAL	.\spi_control.c	/^    ID_CMD_REV_NORMAL = 2,                          \/\/ $BDL>o$N5UE>(B1$BH\/6nF0(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_REV_POSITION_CTL	.\spi_control.c	/^	ID_CMD_REV_POSITION_CTL = 8,					\/\/ $B0LCV4IM}5!G=IU$-$N5UE>(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_SEARCH_1008_POSITION	.\spi_control.c	/^	ID_CMD_SEARCH_1008_POSITION = 13,				\/\/ $B4p=`0LCV8!=P$7$F(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_SEARCH_BASE_POSITION	.\spi_control.c	/^    ID_CMD_SEARCH_BASE_POSITION = 5,                \/\/ $B4p=`0LCV$r@5E>$GC5$9!JAFD4@08e$NHyD4@08!=P0LCV!K(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_SEARCH_LOAD_POSITION	.\spi_control.c	/^    ID_CMD_SEARCH_LOAD_POSITION = 4,                \/\/ $BHyD4@00LCV$r@5E>$GC5$9(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_START_DETECT_VRS	.\spi_control.c	/^	ID_CMD_START_DETECT_VRS = 9,					\/\/ VRS$B8!=P3+;O(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_STOP_DETECT_VRS	.\spi_control.c	/^	ID_CMD_STOP_DETECT_VRS = 10,					\/\/ VRS$B8!=PCf;_(B$/;"	e	enum:ID_CMD_TYPE	file:
+ID_CMD_TYPE	.\spi_control.c	/^enum ID_CMD_TYPE {$/;"	g	file:
+ID_CMD_TYPE_MAX	.\spi_control.c	/^    ID_CMD_TYPE_MAX$/;"	e	enum:ID_CMD_TYPE	file:
+ID_DETECT_LOAD_FINE	.\MotorDrive.c	/^    ID_DETECT_LOAD_FINE = 1, 				\/\/ $BHyD4@00LCV$r8!=P(B$/;"	e	enum:ID_DETECT_LOAD_TYPE	file:
+ID_DETECT_LOAD_FINE_CONT	.\MotorDrive.c	/^    ID_DETECT_LOAD_FINE_CONT = ( ID_DETECT_LOAD_FINE + MARK_DETECT_LOAD_TYPE_CONT ), 	\/\/ $BHyD4@00LCVB3$-$r8!=P(B$/;"	e	enum:ID_DETECT_LOAD_TYPE	file:
+ID_DETECT_LOAD_MAX	.\MotorDrive.c	/^    ID_DETECT_LOAD_MAX$/;"	e	enum:ID_DETECT_LOAD_TYPE	file:
+ID_DETECT_LOAD_NULL	.\MotorDrive.c	/^    ID_DETECT_LOAD_NULL = 0, 				\/\/ $B8!=P$J$7(B$/;"	e	enum:ID_DETECT_LOAD_TYPE	file:
+ID_DETECT_LOAD_ROUGH	.\MotorDrive.c	/^    ID_DETECT_LOAD_ROUGH = 2, 				\/\/ $BAFD4@00LCV$r8!=P(B$/;"	e	enum:ID_DETECT_LOAD_TYPE	file:
+ID_DETECT_LOAD_ROUGH_CONT	.\MotorDrive.c	/^    ID_DETECT_LOAD_ROUGH_CONT = ( ID_DETECT_LOAD_ROUGH + MARK_DETECT_LOAD_TYPE_CONT ), 	\/\/ $BAFD4@00LCVB3$-$r8!=P(B$/;"	e	enum:ID_DETECT_LOAD_TYPE	file:
+ID_DETECT_LOAD_TYPE	.\MotorDrive.c	/^enum ID_DETECT_LOAD_TYPE {$/;"	g	file:
+ID_PULSE_OUT_STEP	.\MotorDrive.c	/^enum ID_PULSE_OUT_STEP {$/;"	g	file:
+ID_PULSE_OUT_STEP_MAX	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_MAX = ( ID_PULSE_OUT_STEP_P1 + 4 ) \/\/ 26$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_PULSE_OUT_STEP_OFF	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_OFF = ( ID_PULSE_OUT_STEP_P1 + 2 ), \/\/ 24$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_PULSE_OUT_STEP_P0	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_P0 = 0,$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_PULSE_OUT_STEP_P0_OFF	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_P0_OFF = 1,$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_PULSE_OUT_STEP_P1	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_P1 = ( ID_PULSE_OUT_STEP_SPK + 2 * NUMBER_OF_REPEAT_SPK ), \/\/ 22$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_PULSE_OUT_STEP_P2	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_P2 = ( ID_PULSE_OUT_STEP_P1 + 1 ), \/\/ 23$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_PULSE_OUT_STEP_SPK	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_SPK = 2,$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_PULSE_OUT_STEP_WAIT	.\MotorDrive.c	/^    ID_PULSE_OUT_STEP_WAIT = ( ID_PULSE_OUT_STEP_P1 + 3 ), \/\/ 25$/;"	e	enum:ID_PULSE_OUT_STEP	file:
+ID_SEARCH_FINE_POS_1ST	.\MotorDrive.c	/^    ID_SEARCH_FINE_POS_1ST = 0, \/\/ $B:G=i$NHyD4@00LCV%5!<%A(B$/;"	e	enum:ID_SEARCH_STAT	file:
+ID_SEARCH_FINE_ROUGH_POS	.\MotorDrive.c	/^    ID_SEARCH_FINE_ROUGH_POS, \/\/ $BHyD4@0!&AFD4@0$N0LCV%5!<%A(B$/;"	e	enum:ID_SEARCH_STAT	file:
+ID_SEARCH_MAX	.\MotorDrive.c	/^    ID_SEARCH_MAX$/;"	e	enum:ID_SEARCH_STAT	file:
+ID_SEARCH_RESULT	.\MotorDrive.c	/^enum ID_SEARCH_RESULT {$/;"	g	file:
+ID_SEARCH_RESULT_CONT	.\MotorDrive.c	/^    ID_SEARCH_RESULT_CONT, 		\/\/ $BA0$NB3$-(B$/;"	e	enum:ID_SEARCH_RESULT	file:
+ID_SEARCH_RESULT_ERR	.\MotorDrive.c	/^    ID_SEARCH_RESULT_ERR 		\/\/ $B0LCV8!=P<:GT"*%?%$%`%*!<%P!<(B$/;"	e	enum:ID_SEARCH_RESULT	file:
+ID_SEARCH_RESULT_NEW_POS	.\MotorDrive.c	/^    ID_SEARCH_RESULT_NEW_POS, 	\/\/ $B?75,0LCV8!=P(B$/;"	e	enum:ID_SEARCH_RESULT	file:
+ID_SEARCH_RESULT_NULL	.\MotorDrive.c	/^    ID_SEARCH_RESULT_NULL = 0,	\/\/ $B7k2L$J$7!JA0$NIi2Y$NB3$-$H$+!K(B$/;"	e	enum:ID_SEARCH_RESULT	file:
+ID_SEARCH_RESULT_RETRY	.\MotorDrive.c	/^    ID_SEARCH_RESULT_RETRY, 	\/\/ $B0LCV8!=P<:GT"*$d$jD>$7(B$/;"	e	enum:ID_SEARCH_RESULT	file:
+ID_SEARCH_RESULT_SUCCESS	.\MotorDrive.c	/^    ID_SEARCH_RESULT_SUCCESS, 	\/\/ $B0LCV8!=P@.8y(B$/;"	e	enum:ID_SEARCH_RESULT	file:
+ID_SEARCH_STAT	.\MotorDrive.c	/^enum ID_SEARCH_STAT {$/;"	g	file:
+INPUT	.\mcc_generated_files\pin_manager.h	56;"	d
+INTERRUPT_GlobalInterruptDisable	.\mcc_generated_files\interrupt_manager.h	75;"	d
+INTERRUPT_GlobalInterruptEnable	.\mcc_generated_files\interrupt_manager.h	63;"	d
+INTERRUPT_InterruptManager	.\mcc_generated_files\interrupt_manager.c	/^void __interrupt() INTERRUPT_InterruptManager (void)$/;"	f
+INTERRUPT_MANAGER_H	.\mcc_generated_files\interrupt_manager.h	50;"	d
+INTERRUPT_PeripheralInterruptDisable	.\mcc_generated_files\interrupt_manager.h	98;"	d
+INTERRUPT_PeripheralInterruptEnable	.\mcc_generated_files\interrupt_manager.h	86;"	d
+IO_RC0_ANS	.\mcc_generated_files\pin_manager.h	197;"	d
+IO_RC0_GetValue	.\mcc_generated_files\pin_manager.h	201;"	d
+IO_RC0_LAT	.\mcc_generated_files\pin_manager.h	195;"	d
+IO_RC0_PORT	.\mcc_generated_files\pin_manager.h	196;"	d
+IO_RC0_SetAnalogMode	.\mcc_generated_files\pin_manager.h	204;"	d
+IO_RC0_SetDigitalInput	.\mcc_generated_files\pin_manager.h	202;"	d
+IO_RC0_SetDigitalMode	.\mcc_generated_files\pin_manager.h	205;"	d
+IO_RC0_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	203;"	d
+IO_RC0_SetHigh	.\mcc_generated_files\pin_manager.h	198;"	d
+IO_RC0_SetLow	.\mcc_generated_files\pin_manager.h	199;"	d
+IO_RC0_TRIS	.\mcc_generated_files\pin_manager.h	194;"	d
+IO_RC0_Toggle	.\mcc_generated_files\pin_manager.h	200;"	d
+InitPositionSearch	.\MotorDrive.c	/^void InitPositionSearch( UB motor_no )$/;"	f
+InitPulsePositionTable	.\MotorDrive.c	/^void InitPulsePositionTable( UB motor_no )$/;"	f
+LOW	.\data_types.h	47;"	d
+LOW	.\mcc_generated_files\pin_manager.h	60;"	d
+M0_O1_ANS	.\mcc_generated_files\pin_manager.h	73;"	d
+M0_O1_GetValue	.\mcc_generated_files\pin_manager.h	77;"	d
+M0_O1_LAT	.\mcc_generated_files\pin_manager.h	70;"	d
+M0_O1_PORT	.\mcc_generated_files\pin_manager.h	71;"	d
+M0_O1_ResetPullup	.\mcc_generated_files\pin_manager.h	81;"	d
+M0_O1_SetAnalogMode	.\mcc_generated_files\pin_manager.h	82;"	d
+M0_O1_SetDigitalInput	.\mcc_generated_files\pin_manager.h	78;"	d
+M0_O1_SetDigitalMode	.\mcc_generated_files\pin_manager.h	83;"	d
+M0_O1_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	79;"	d
+M0_O1_SetHigh	.\mcc_generated_files\pin_manager.h	74;"	d
+M0_O1_SetLow	.\mcc_generated_files\pin_manager.h	75;"	d
+M0_O1_SetPullup	.\mcc_generated_files\pin_manager.h	80;"	d
+M0_O1_TRIS	.\mcc_generated_files\pin_manager.h	69;"	d
+M0_O1_Toggle	.\mcc_generated_files\pin_manager.h	76;"	d
+M0_O1_WPU	.\mcc_generated_files\pin_manager.h	72;"	d
+M0_O2_ANS	.\mcc_generated_files\pin_manager.h	211;"	d
+M0_O2_GetValue	.\mcc_generated_files\pin_manager.h	215;"	d
+M0_O2_LAT	.\mcc_generated_files\pin_manager.h	209;"	d
+M0_O2_PORT	.\mcc_generated_files\pin_manager.h	210;"	d
+M0_O2_SetAnalogMode	.\mcc_generated_files\pin_manager.h	218;"	d
+M0_O2_SetDigitalInput	.\mcc_generated_files\pin_manager.h	216;"	d
+M0_O2_SetDigitalMode	.\mcc_generated_files\pin_manager.h	219;"	d
+M0_O2_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	217;"	d
+M0_O2_SetHigh	.\mcc_generated_files\pin_manager.h	212;"	d
+M0_O2_SetLow	.\mcc_generated_files\pin_manager.h	213;"	d
+M0_O2_TRIS	.\mcc_generated_files\pin_manager.h	208;"	d
+M0_O2_Toggle	.\mcc_generated_files\pin_manager.h	214;"	d
+M0_O3_ANS	.\mcc_generated_files\pin_manager.h	114;"	d
+M0_O3_CMP	.\MotorDrive.c	167;"	d	file:
+M0_O3_GetValue	.\mcc_generated_files\pin_manager.h	118;"	d
+M0_O3_LAT	.\mcc_generated_files\pin_manager.h	111;"	d
+M0_O3_PORT	.\mcc_generated_files\pin_manager.h	112;"	d
+M0_O3_ResetPullup	.\mcc_generated_files\pin_manager.h	122;"	d
+M0_O3_SetAnalogMode	.\mcc_generated_files\pin_manager.h	123;"	d
+M0_O3_SetDigitalInput	.\mcc_generated_files\pin_manager.h	119;"	d
+M0_O3_SetDigitalMode	.\mcc_generated_files\pin_manager.h	124;"	d
+M0_O3_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	120;"	d
+M0_O3_SetHigh	.\mcc_generated_files\pin_manager.h	115;"	d
+M0_O3_SetLow	.\mcc_generated_files\pin_manager.h	116;"	d
+M0_O3_SetPullup	.\mcc_generated_files\pin_manager.h	121;"	d
+M0_O3_TRIS	.\mcc_generated_files\pin_manager.h	110;"	d
+M0_O3_Toggle	.\mcc_generated_files\pin_manager.h	117;"	d
+M0_O3_WPU	.\mcc_generated_files\pin_manager.h	113;"	d
+M0_O4_CMP	.\MotorDrive.c	168;"	d	file:
+M0_O4_GetValue	.\mcc_generated_files\pin_manager.h	134;"	d
+M0_O4_LAT	.\mcc_generated_files\pin_manager.h	128;"	d
+M0_O4_PORT	.\mcc_generated_files\pin_manager.h	129;"	d
+M0_O4_ResetPullup	.\mcc_generated_files\pin_manager.h	138;"	d
+M0_O4_SetDigitalInput	.\mcc_generated_files\pin_manager.h	135;"	d
+M0_O4_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	136;"	d
+M0_O4_SetHigh	.\mcc_generated_files\pin_manager.h	131;"	d
+M0_O4_SetLow	.\mcc_generated_files\pin_manager.h	132;"	d
+M0_O4_SetPullup	.\mcc_generated_files\pin_manager.h	137;"	d
+M0_O4_TRIS	.\mcc_generated_files\pin_manager.h	127;"	d
+M0_O4_Toggle	.\mcc_generated_files\pin_manager.h	133;"	d
+M0_O4_WPU	.\mcc_generated_files\pin_manager.h	130;"	d
+M0_VD_GetValue	.\mcc_generated_files\pin_manager.h	267;"	d
+M0_VD_LAT	.\mcc_generated_files\pin_manager.h	262;"	d
+M0_VD_PORT	.\mcc_generated_files\pin_manager.h	263;"	d
+M0_VD_SetDigitalInput	.\mcc_generated_files\pin_manager.h	268;"	d
+M0_VD_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	269;"	d
+M0_VD_SetHigh	.\mcc_generated_files\pin_manager.h	264;"	d
+M0_VD_SetLow	.\mcc_generated_files\pin_manager.h	265;"	d
+M0_VD_TRIS	.\mcc_generated_files\pin_manager.h	261;"	d
+M0_VD_Toggle	.\mcc_generated_files\pin_manager.h	266;"	d
+M1_O1_ANS	.\mcc_generated_files\pin_manager.h	225;"	d
+M1_O1_GetValue	.\mcc_generated_files\pin_manager.h	229;"	d
+M1_O1_LAT	.\mcc_generated_files\pin_manager.h	223;"	d
+M1_O1_PORT	.\mcc_generated_files\pin_manager.h	224;"	d
+M1_O1_SetAnalogMode	.\mcc_generated_files\pin_manager.h	232;"	d
+M1_O1_SetDigitalInput	.\mcc_generated_files\pin_manager.h	230;"	d
+M1_O1_SetDigitalMode	.\mcc_generated_files\pin_manager.h	233;"	d
+M1_O1_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	231;"	d
+M1_O1_SetHigh	.\mcc_generated_files\pin_manager.h	226;"	d
+M1_O1_SetLow	.\mcc_generated_files\pin_manager.h	227;"	d
+M1_O1_TRIS	.\mcc_generated_files\pin_manager.h	222;"	d
+M1_O1_Toggle	.\mcc_generated_files\pin_manager.h	228;"	d
+M1_O2_ANS	.\mcc_generated_files\pin_manager.h	239;"	d
+M1_O2_GetValue	.\mcc_generated_files\pin_manager.h	243;"	d
+M1_O2_LAT	.\mcc_generated_files\pin_manager.h	237;"	d
+M1_O2_PORT	.\mcc_generated_files\pin_manager.h	238;"	d
+M1_O2_SetAnalogMode	.\mcc_generated_files\pin_manager.h	246;"	d
+M1_O2_SetDigitalInput	.\mcc_generated_files\pin_manager.h	244;"	d
+M1_O2_SetDigitalMode	.\mcc_generated_files\pin_manager.h	247;"	d
+M1_O2_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	245;"	d
+M1_O2_SetHigh	.\mcc_generated_files\pin_manager.h	240;"	d
+M1_O2_SetLow	.\mcc_generated_files\pin_manager.h	241;"	d
+M1_O2_TRIS	.\mcc_generated_files\pin_manager.h	236;"	d
+M1_O2_Toggle	.\mcc_generated_files\pin_manager.h	242;"	d
+M1_O3_CMP	.\MotorDrive.c	173;"	d	file:
+M1_O3_GetValue	.\mcc_generated_files\pin_manager.h	187;"	d
+M1_O3_LAT	.\mcc_generated_files\pin_manager.h	181;"	d
+M1_O3_PORT	.\mcc_generated_files\pin_manager.h	182;"	d
+M1_O3_ResetPullup	.\mcc_generated_files\pin_manager.h	191;"	d
+M1_O3_SetDigitalInput	.\mcc_generated_files\pin_manager.h	188;"	d
+M1_O3_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	189;"	d
+M1_O3_SetHigh	.\mcc_generated_files\pin_manager.h	184;"	d
+M1_O3_SetLow	.\mcc_generated_files\pin_manager.h	185;"	d
+M1_O3_SetPullup	.\mcc_generated_files\pin_manager.h	190;"	d
+M1_O3_TRIS	.\mcc_generated_files\pin_manager.h	180;"	d
+M1_O3_Toggle	.\mcc_generated_files\pin_manager.h	186;"	d
+M1_O3_WPU	.\mcc_generated_files\pin_manager.h	183;"	d
+M1_O4_ANS	.\mcc_generated_files\pin_manager.h	157;"	d
+M1_O4_CMP	.\MotorDrive.c	174;"	d	file:
+M1_O4_GetValue	.\mcc_generated_files\pin_manager.h	161;"	d
+M1_O4_LAT	.\mcc_generated_files\pin_manager.h	154;"	d
+M1_O4_PORT	.\mcc_generated_files\pin_manager.h	155;"	d
+M1_O4_ResetPullup	.\mcc_generated_files\pin_manager.h	165;"	d
+M1_O4_SetAnalogMode	.\mcc_generated_files\pin_manager.h	166;"	d
+M1_O4_SetDigitalInput	.\mcc_generated_files\pin_manager.h	162;"	d
+M1_O4_SetDigitalMode	.\mcc_generated_files\pin_manager.h	167;"	d
+M1_O4_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	163;"	d
+M1_O4_SetHigh	.\mcc_generated_files\pin_manager.h	158;"	d
+M1_O4_SetLow	.\mcc_generated_files\pin_manager.h	159;"	d
+M1_O4_SetPullup	.\mcc_generated_files\pin_manager.h	164;"	d
+M1_O4_TRIS	.\mcc_generated_files\pin_manager.h	153;"	d
+M1_O4_Toggle	.\mcc_generated_files\pin_manager.h	160;"	d
+M1_O4_WPU	.\mcc_generated_files\pin_manager.h	156;"	d
+M1_VD_ANS	.\mcc_generated_files\pin_manager.h	275;"	d
+M1_VD_GetValue	.\mcc_generated_files\pin_manager.h	279;"	d
+M1_VD_LAT	.\mcc_generated_files\pin_manager.h	273;"	d
+M1_VD_PORT	.\mcc_generated_files\pin_manager.h	274;"	d
+M1_VD_SetAnalogMode	.\mcc_generated_files\pin_manager.h	282;"	d
+M1_VD_SetDigitalInput	.\mcc_generated_files\pin_manager.h	280;"	d
+M1_VD_SetDigitalMode	.\mcc_generated_files\pin_manager.h	283;"	d
+M1_VD_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	281;"	d
+M1_VD_SetHigh	.\mcc_generated_files\pin_manager.h	276;"	d
+M1_VD_SetLow	.\mcc_generated_files\pin_manager.h	277;"	d
+M1_VD_TRIS	.\mcc_generated_files\pin_manager.h	272;"	d
+M1_VD_Toggle	.\mcc_generated_files\pin_manager.h	278;"	d
+MARK_DETECT_LOAD_TYPE_CONT	.\MotorDrive.c	437;"	d	file:
+MAX_B	.\data_types.h	52;"	d
+MAX_FINE_DETECTION_NUMBER	.\MotorDrive.c	451;"	d	file:
+MAX_H	.\data_types.h	56;"	d
+MAX_INTERVAL_FINE_CONT	.\MotorDrive.c	454;"	d	file:
+MAX_INTERVAL_ROUGH_CONT	.\MotorDrive.c	455;"	d	file:
+MAX_LOAD_POSITION_ARRAY_LENGTH	.\MotorDrive.c	465;"	d	file:
+MAX_ROUGH_DETECTION_NUMBER	.\MotorDrive.c	452;"	d	file:
+MAX_SEARCH_ROTATION	.\MotorDrive.c	463;"	d	file:
+MAX_STEPS_M0	.\MotorDrive.c	468;"	d	file:
+MAX_STEPS_M1	.\MotorDrive.c	469;"	d	file:
+MAX_UB	.\data_types.h	51;"	d
+MAX_UH	.\data_types.h	55;"	d
+MAX_UW	.\data_types.h	59;"	d
+MAX_W	.\data_types.h	60;"	d
+MCC_H	.\mcc_generated_files\mcc.h	48;"	d
+MIN_B	.\data_types.h	53;"	d
+MIN_H	.\data_types.h	57;"	d
+MIN_W	.\data_types.h	61;"	d
+MISC_H	.\misc.h	9;"	d
+MOTORDRIVE_H	.\MotorDrive.h	9;"	d
+MOTOR_M0	.\MotorDrive.h	24;"	d
+MOTOR_M1	.\MotorDrive.h	25;"	d
+MOTOR_NUM	.\MotorDrive.h	22;"	d
+MoveTargetPosition	.\MotorDrive.c	/^void MoveTargetPosition( UB motor_no )$/;"	f
+NA	.\data_types.h	43;"	d
+NULL_FAR_PTR	.\data_types.h	40;"	d
+NULL_PTR	.\data_types.h	35;"	d
+NULL_PTR	.\data_types.h	37;"	d
+NUMBER_OF_FINE_POSITION	.\MotorDrive.c	448;"	d	file:
+NUMBER_OF_REPEAT_SPK	.\MotorDrive.c	345;"	d	file:
+NUMBER_OF_ROUGH_POSITION	.\MotorDrive.c	449;"	d	file:
+OFF	.\data_types.h	44;"	d
+OFFSET_M0_BASE_POSITION	.\MotorDrive.c	484;"	d	file:
+OFFSET_M0_BASE_POSITION	.\MotorDrive.c	491;"	d	file:
+OFFSET_M1_BASE_POSITION	.\MotorDrive.c	485;"	d	file:
+OFFSET_M1_BASE_POSITION	.\MotorDrive.c	492;"	d	file:
+ON	.\data_types.h	45;"	d
+OSCILLATOR_Initialize	.\mcc_generated_files\mcc.c	/^void OSCILLATOR_Initialize(void)$/;"	f
+OUTPUT	.\mcc_generated_files\pin_manager.h	57;"	d
+OUTSTEP_P1P2_INIT_DATA	.\MotorDrive.c	414;"	d	file:
+OUTSTEP_SHAKE_INIT_DATA	.\MotorDrive.c	413;"	d	file:
+OutRequestFlug	.\MotorDrive.c	/^static UB OutRequestFlug; 					\/\/ PulseChangePosition$B$GJQ2=I,MW$J;~$N=PNOMW5a%U%i%0(B$/;"	v	file:
+OutTrisRequestFlug	.\MotorDrive.c	/^static UB OutTrisRequestFlug; 				\/\/ TRISx$B$NJQ2=I,MW$J;~$N=PNOMW5a%U%i%0(B$/;"	v	file:
+PIN_MANAGER_H	.\mcc_generated_files\pin_manager.h	48;"	d
+PIN_MANAGER_IOC	.\mcc_generated_files\pin_manager.c	/^void PIN_MANAGER_IOC(void)$/;"	f
+PIN_MANAGER_Initialize	.\mcc_generated_files\pin_manager.c	/^void PIN_MANAGER_Initialize(void)$/;"	f
+POS_P0_START	.\MotorDrive.c	353;"	d	file:
+POS_P1P2_INIT_DATA	.\MotorDrive.c	357;"	d	file:
+POS_P1_START	.\MotorDrive.c	354;"	d	file:
+POS_PULSE_INTERVAL_FINISH_DEF	.\MotorDrive.c	361;"	d	file:
+POS_PULSE_INTERVAL_FINISH_MIN	.\MotorDrive.c	360;"	d	file:
+POS_SHAKE_INIT_DATA	.\MotorDrive.c	356;"	d	file:
+PULL_UP_DISABLED	.\mcc_generated_files\pin_manager.h	66;"	d
+PULL_UP_ENABLED	.\mcc_generated_files\pin_manager.h	65;"	d
+PULSE_CHANGE_ARRAY_LAST	.\MotorDrive.c	367;"	d	file:
+PULSE_CHANGE_ARRAY_LENGTH	.\MotorDrive.c	364;"	d	file:
+PULSE_CHANGE_OFF	.\MotorDrive.c	/^	PULSE_CHANGE_OFF 				= ( PULSE_CHANGE_START_P2 			+ 	WIDTH_PULSE_OFF_DEF		)$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_POSITION	.\MotorDrive.c	/^enum PULSE_CHANGE_POSITION {$/;"	g	file:
+PULSE_CHANGE_START_P0	.\MotorDrive.c	/^	PULSE_CHANGE_START_P0 			= ( 0								+ 	POS_P0_START 			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_P1	.\MotorDrive.c	/^	PULSE_CHANGE_START_P1 			= ( PULSE_CHANGE_START_SPK_OFF_10	+ 	WIDTH_PULSE_P1			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_P2	.\MotorDrive.c	/^	PULSE_CHANGE_START_P2 			= ( PULSE_CHANGE_START_P1 			+ 	WIDTH_PULSE_P2			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_1	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_1	= ( PULSE_CHANGE_START_SPK_ON_1		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_10	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_10	= ( PULSE_CHANGE_START_SPK_ON_10	+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_2	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_2	= ( PULSE_CHANGE_START_SPK_ON_2		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_3	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_3	= ( PULSE_CHANGE_START_SPK_ON_3		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_4	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_4	= ( PULSE_CHANGE_START_SPK_ON_4		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_5	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_5	= ( PULSE_CHANGE_START_SPK_ON_5		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_6	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_6	= ( PULSE_CHANGE_START_SPK_ON_6		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_7	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_7	= ( PULSE_CHANGE_START_SPK_ON_7		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_8	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_8	= ( PULSE_CHANGE_START_SPK_ON_8		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_OFF_9	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_OFF_9	= ( PULSE_CHANGE_START_SPK_ON_9		+ 	WIDTH_SPK_OFF			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_1	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_1		= ( PULSE_CHANGE_START_WAITE		+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_10	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_10	= ( PULSE_CHANGE_START_SPK_OFF_9	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_2	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_2		= ( PULSE_CHANGE_START_SPK_OFF_1	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_3	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_3		= ( PULSE_CHANGE_START_SPK_OFF_2	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_4	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_4		= ( PULSE_CHANGE_START_SPK_OFF_3	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_5	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_5		= ( PULSE_CHANGE_START_SPK_OFF_4	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_6	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_6		= ( PULSE_CHANGE_START_SPK_OFF_5	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_7	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_7		= ( PULSE_CHANGE_START_SPK_OFF_6	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_8	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_8		= ( PULSE_CHANGE_START_SPK_OFF_7	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_SPK_ON_9	.\MotorDrive.c	/^	PULSE_CHANGE_START_SPK_ON_9		= ( PULSE_CHANGE_START_SPK_OFF_8	+ 	WIDTH_SPK_ON			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_START_WAITE	.\MotorDrive.c	/^	PULSE_CHANGE_START_WAITE		= ( PULSE_CHANGE_STOP_P0 			+ 	WIDTH_SPK_START_WAIT	),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PULSE_CHANGE_STOP_P0	.\MotorDrive.c	/^	PULSE_CHANGE_STOP_P0 			= ( PULSE_CHANGE_START_P0 			+ 	WIDTH_PULSE_P0 			),$/;"	e	enum:PULSE_CHANGE_POSITION	file:
+PriorUpdateCorrentPosition	.\MotorDrive.c	/^void PriorUpdateCorrentPosition( UB motor_no )$/;"	f
+RA3_GetValue	.\mcc_generated_files\pin_manager.h	103;"	d
+RA3_ResetPullup	.\mcc_generated_files\pin_manager.h	107;"	d
+RA3_SetDigitalInput	.\mcc_generated_files\pin_manager.h	104;"	d
+RA3_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	105;"	d
+RA3_SetPullup	.\mcc_generated_files\pin_manager.h	106;"	d
+RB4_GetValue	.\mcc_generated_files\pin_manager.h	144;"	d
+RB4_ResetPullup	.\mcc_generated_files\pin_manager.h	148;"	d
+RB4_SetAnalogMode	.\mcc_generated_files\pin_manager.h	149;"	d
+RB4_SetDigitalInput	.\mcc_generated_files\pin_manager.h	145;"	d
+RB4_SetDigitalMode	.\mcc_generated_files\pin_manager.h	150;"	d
+RB4_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	146;"	d
+RB4_SetHigh	.\mcc_generated_files\pin_manager.h	141;"	d
+RB4_SetLow	.\mcc_generated_files\pin_manager.h	142;"	d
+RB4_SetPullup	.\mcc_generated_files\pin_manager.h	147;"	d
+RB4_Toggle	.\mcc_generated_files\pin_manager.h	143;"	d
+RB6_GetValue	.\mcc_generated_files\pin_manager.h	173;"	d
+RB6_ResetPullup	.\mcc_generated_files\pin_manager.h	177;"	d
+RB6_SetDigitalInput	.\mcc_generated_files\pin_manager.h	174;"	d
+RB6_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	175;"	d
+RB6_SetHigh	.\mcc_generated_files\pin_manager.h	170;"	d
+RB6_SetLow	.\mcc_generated_files\pin_manager.h	171;"	d
+RB6_SetPullup	.\mcc_generated_files\pin_manager.h	176;"	d
+RB6_Toggle	.\mcc_generated_files\pin_manager.h	172;"	d
+RC7_GetValue	.\mcc_generated_files\pin_manager.h	289;"	d
+RC7_SetAnalogMode	.\mcc_generated_files\pin_manager.h	292;"	d
+RC7_SetDigitalInput	.\mcc_generated_files\pin_manager.h	290;"	d
+RC7_SetDigitalMode	.\mcc_generated_files\pin_manager.h	293;"	d
+RC7_SetDigitalOutput	.\mcc_generated_files\pin_manager.h	291;"	d
+RC7_SetHigh	.\mcc_generated_files\pin_manager.h	286;"	d
+RC7_SetLow	.\mcc_generated_files\pin_manager.h	287;"	d
+RC7_Toggle	.\mcc_generated_files\pin_manager.h	288;"	d
+REVERSE	.\MotorDrive.h	31;"	d
+SET_FREQ_100HZ	.\MotorDrive.h	91;"	d
+SET_FREQ_101HZ	.\MotorDrive.h	90;"	d
+SET_FREQ_102HZ	.\MotorDrive.h	89;"	d
+SET_FREQ_104HZ	.\MotorDrive.h	88;"	d
+SET_FREQ_105HZ	.\MotorDrive.h	87;"	d
+SET_FREQ_106HZ	.\MotorDrive.h	86;"	d
+SET_FREQ_108HZ	.\MotorDrive.h	85;"	d
+SET_FREQ_109HZ	.\MotorDrive.h	84;"	d
+SET_FREQ_111HZ	.\MotorDrive.h	83;"	d
+SET_FREQ_112HZ	.\MotorDrive.h	82;"	d
+SET_FREQ_114HZ	.\MotorDrive.h	81;"	d
+SET_FREQ_115HZ	.\MotorDrive.h	80;"	d
+SET_FREQ_117HZ	.\MotorDrive.h	79;"	d
+SET_FREQ_119HZ	.\MotorDrive.h	78;"	d
+SET_FREQ_121HZ	.\MotorDrive.h	77;"	d
+SET_FREQ_122HZ	.\MotorDrive.h	76;"	d
+SET_FREQ_124HZ	.\MotorDrive.h	75;"	d
+SET_FREQ_126HZ	.\MotorDrive.h	74;"	d
+SET_FREQ_128HZ	.\MotorDrive.h	73;"	d
+SET_FREQ_130HZ	.\MotorDrive.h	72;"	d
+SET_FREQ_132HZ	.\MotorDrive.h	71;"	d
+SET_FREQ_134HZ	.\MotorDrive.h	70;"	d
+SET_FREQ_137HZ	.\MotorDrive.h	69;"	d
+SET_FREQ_139HZ	.\MotorDrive.h	68;"	d
+SET_FREQ_141HZ	.\MotorDrive.h	67;"	d
+SET_FREQ_144HZ	.\MotorDrive.h	66;"	d
+SET_FREQ_146HZ	.\MotorDrive.h	65;"	d
+SET_FREQ_149HZ	.\MotorDrive.h	64;"	d
+SET_FREQ_152HZ	.\MotorDrive.h	63;"	d
+SET_FREQ_155HZ	.\MotorDrive.h	62;"	d
+SET_FREQ_158HZ	.\MotorDrive.h	61;"	d
+SET_FREQ_161HZ	.\MotorDrive.h	60;"	d
+SET_FREQ_164HZ	.\MotorDrive.h	59;"	d
+SET_FREQ_167HZ	.\MotorDrive.h	58;"	d
+SET_FREQ_171HZ	.\MotorDrive.h	57;"	d
+SET_FREQ_174HZ	.\MotorDrive.h	56;"	d
+SET_FREQ_178HZ	.\MotorDrive.h	55;"	d
+SET_FREQ_182HZ	.\MotorDrive.h	54;"	d
+SET_FREQ_186HZ	.\MotorDrive.h	53;"	d
+SET_FREQ_191HZ	.\MotorDrive.h	52;"	d
+SET_FREQ_195HZ	.\MotorDrive.h	51;"	d
+SET_FREQ_200HZ	.\MotorDrive.h	50;"	d
+SET_FREQ_40HZ	.\MotorDrive.h	150;"	d
+SET_FREQ_41HZ	.\MotorDrive.h	149;"	d
+SET_FREQ_42HZ	.\MotorDrive.h	148;"	d
+SET_FREQ_43HZ	.\MotorDrive.h	147;"	d
+SET_FREQ_44HZ	.\MotorDrive.h	146;"	d
+SET_FREQ_45HZ	.\MotorDrive.h	145;"	d
+SET_FREQ_46HZ	.\MotorDrive.h	144;"	d
+SET_FREQ_47HZ	.\MotorDrive.h	143;"	d
+SET_FREQ_48HZ	.\MotorDrive.h	142;"	d
+SET_FREQ_49HZ	.\MotorDrive.h	141;"	d
+SET_FREQ_50HZ	.\MotorDrive.h	140;"	d
+SET_FREQ_51HZ	.\MotorDrive.h	139;"	d
+SET_FREQ_52HZ	.\MotorDrive.h	138;"	d
+SET_FREQ_53HZ	.\MotorDrive.h	137;"	d
+SET_FREQ_54HZ	.\MotorDrive.h	136;"	d
+SET_FREQ_55HZ	.\MotorDrive.h	135;"	d
+SET_FREQ_56HZ	.\MotorDrive.h	134;"	d
+SET_FREQ_57HZ	.\MotorDrive.h	133;"	d
+SET_FREQ_58HZ	.\MotorDrive.h	132;"	d
+SET_FREQ_59HZ	.\MotorDrive.h	131;"	d
+SET_FREQ_60HZ	.\MotorDrive.h	130;"	d
+SET_FREQ_61HZ	.\MotorDrive.h	129;"	d
+SET_FREQ_62HZ	.\MotorDrive.h	128;"	d
+SET_FREQ_63HZ	.\MotorDrive.h	127;"	d
+SET_FREQ_64HZ	.\MotorDrive.h	126;"	d
+SET_FREQ_65HZ	.\MotorDrive.h	125;"	d
+SET_FREQ_66HZ	.\MotorDrive.h	124;"	d
+SET_FREQ_67HZ	.\MotorDrive.h	123;"	d
+SET_FREQ_68HZ	.\MotorDrive.h	122;"	d
+SET_FREQ_69HZ	.\MotorDrive.h	121;"	d
+SET_FREQ_70HZ	.\MotorDrive.h	120;"	d
+SET_FREQ_71HZ	.\MotorDrive.h	119;"	d
+SET_FREQ_72HZ	.\MotorDrive.h	118;"	d
+SET_FREQ_73HZ	.\MotorDrive.h	117;"	d
+SET_FREQ_74HZ	.\MotorDrive.h	116;"	d
+SET_FREQ_75HZ	.\MotorDrive.h	115;"	d
+SET_FREQ_76HZ	.\MotorDrive.h	114;"	d
+SET_FREQ_77HZ	.\MotorDrive.h	113;"	d
+SET_FREQ_78HZ	.\MotorDrive.h	112;"	d
+SET_FREQ_79HZ	.\MotorDrive.h	111;"	d
+SET_FREQ_80HZ	.\MotorDrive.h	110;"	d
+SET_FREQ_81HZ	.\MotorDrive.h	109;"	d
+SET_FREQ_82HZ	.\MotorDrive.h	108;"	d
+SET_FREQ_83HZ	.\MotorDrive.h	107;"	d
+SET_FREQ_84HZ	.\MotorDrive.h	106;"	d
+SET_FREQ_85HZ	.\MotorDrive.h	105;"	d
+SET_FREQ_86HZ	.\MotorDrive.h	104;"	d
+SET_FREQ_87HZ	.\MotorDrive.h	103;"	d
+SET_FREQ_88HZ	.\MotorDrive.h	102;"	d
+SET_FREQ_89HZ	.\MotorDrive.h	101;"	d
+SET_FREQ_90HZ	.\MotorDrive.h	100;"	d
+SET_FREQ_91HZ	.\MotorDrive.h	99;"	d
+SET_FREQ_92HZ	.\MotorDrive.h	98;"	d
+SET_FREQ_93HZ	.\MotorDrive.h	97;"	d
+SET_FREQ_94HZ	.\MotorDrive.h	96;"	d
+SET_FREQ_95HZ	.\MotorDrive.h	95;"	d
+SET_FREQ_96HZ	.\MotorDrive.h	94;"	d
+SET_FREQ_98HZ	.\MotorDrive.h	93;"	d
+SET_FREQ_99HZ	.\MotorDrive.h	92;"	d
+SPIControl_ExecuteCommand	.\spi_control.c	/^void SPIControl_ExecuteCommand( void )$/;"	f
+SPIControl_RecieveComannd	.\spi_control.c	/^void SPIControl_RecieveComannd( void )$/;"	f
+SPIControl_SetNotification	.\spi_control.c	/^void SPIControl_SetNotification( UB motor_no )$/;"	f
+SPI_CONTROL_H	.\spi_control.h	9;"	d
+SPI_Close	.\mcc_generated_files\spi.c	/^void SPI_Close(void)$/;"	f
+SPI_DEFAULT	.\mcc_generated_files\spi.h	/^    SPI_DEFAULT$/;"	e	enum:__anon4
+SPI_ExchangeBlock	.\mcc_generated_files\spi.c	/^void SPI_ExchangeBlock(void *block, size_t blockSize)$/;"	f
+SPI_ExchangeByte	.\mcc_generated_files\spi.c	/^uint8_t SPI_ExchangeByte(uint8_t data)$/;"	f
+SPI_H	.\mcc_generated_files\spi.h	48;"	d
+SPI_Initialize	.\mcc_generated_files\spi.c	/^void SPI_Initialize(void)$/;"	f
+SPI_Open	.\mcc_generated_files\spi.c	/^bool SPI_Open(spi_modes_t spiUniqueConfiguration)$/;"	f
+SPI_ReadBlock	.\mcc_generated_files\spi.c	/^void SPI_ReadBlock(void *block, size_t blockSize)$/;"	f
+SPI_ReadByte	.\mcc_generated_files\spi.c	/^uint8_t SPI_ReadByte(void)$/;"	f
+SPI_SLAVE_INT	.\spi_control.c	127;"	d	file:
+SPI_WriteBlock	.\mcc_generated_files\spi.c	/^void SPI_WriteBlock(void *block, size_t blockSize)$/;"	f
+SPI_WriteByte	.\mcc_generated_files\spi.c	/^void SPI_WriteByte(uint8_t byte)$/;"	f
+SYSTEM_Initialize	.\mcc_generated_files\mcc.c	/^void SYSTEM_Initialize(void)$/;"	f
+SaveLoadPosition	.\MotorDrive.c	/^void SaveLoadPosition( UB motor_no )$/;"	f
+SetAfterDetectLoadFunc	.\MotorDrive.c	/^void SetAfterDetectLoadFunc( UB motor_no, void ( * func )( UB motor_no ) )$/;"	f
+SetAfterMotorStopFunc	.\MotorDrive.c	/^void SetAfterMotorStopFunc( UB motor_no, void ( * func )( UB motor_no ) )$/;"	f
+SetCheckLoadPosition	.\MotorDrive.c	/^void SetCheckLoadPosition( UB motor_no, UB sw )$/;"	f
+SetDataTRISxWork_M0_SPK_POL0_OPEN	.\MotorDrive.c	/^void SetDataTRISxWork_M0_SPK_POL0_OPEN( void )$/;"	f
+SetDataTRISxWork_M0_SPK_POL0_SHORT	.\MotorDrive.c	/^void SetDataTRISxWork_M0_SPK_POL0_SHORT( void )$/;"	f
+SetDataTRISxWork_M0_SPK_POL1_OPEN	.\MotorDrive.c	/^void SetDataTRISxWork_M0_SPK_POL1_OPEN( void )$/;"	f
+SetDataTRISxWork_M0_SPK_POL1_SHORT	.\MotorDrive.c	/^void SetDataTRISxWork_M0_SPK_POL1_SHORT( void )$/;"	f
+SetDataTRISxWork_M1_SPK_POL0_OPEN	.\MotorDrive.c	/^void SetDataTRISxWork_M1_SPK_POL0_OPEN( void )$/;"	f
+SetDataTRISxWork_M1_SPK_POL0_SHORT	.\MotorDrive.c	/^void SetDataTRISxWork_M1_SPK_POL0_SHORT( void )$/;"	f
+SetDataTRISxWork_M1_SPK_POL1_OPEN	.\MotorDrive.c	/^void SetDataTRISxWork_M1_SPK_POL1_OPEN( void )$/;"	f
+SetDataTRISxWork_M1_SPK_POL1_SHORT	.\MotorDrive.c	/^void SetDataTRISxWork_M1_SPK_POL1_SHORT( void )$/;"	f
+SetDataTRISxWork_SPK_OPEN	.\MotorDrive.c	/^void SetDataTRISxWork_SPK_OPEN( void )$/;"	f
+SetDataTRISxWork_SPK_SHORT	.\MotorDrive.c	/^void SetDataTRISxWork_SPK_SHORT( void )$/;"	f
+SetDriveType	.\MotorDrive.c	/^void SetDriveType( UB motor_no, UB drive_type )$/;"	f
+SetExcitatingOutOffData	.\MotorDrive.c	/^void SetExcitatingOutOffData(void){$/;"	f
+SetFwdPulseWithCorrectProc	.\spi_control.c	/^void SetFwdPulseWithCorrectProc( UB motor_no )$/;"	f
+SetMotorAddShakePulse	.\MotorDrive.c	/^void SetMotorAddShakePulse( UB motor_no, UB sw )$/;"	f
+SetMotorBitMotorNo	.\MotorDrive.c	/^void SetMotorBitMotorNo( UB motor_no )$/;"	f
+SetMotorCorrectPositionStart	.\MotorDrive.c	/^void SetMotorCorrectPositionStart( UB motor_no )$/;"	f
+SetMotorDirection	.\MotorDrive.c	/^void SetMotorDirection( UB motor_no, UB dir )$/;"	f
+SetMotorDisableExcitating	.\MotorDrive.c	/^void SetMotorDisableExcitating( UB motor_no )$/;"	f
+SetMotorEnableExcitating	.\MotorDrive.c	/^void SetMotorEnableExcitating( UB motor_no )$/;"	f
+SetMotorFrequency	.\MotorDrive.c	/^void SetMotorFrequency( UB motor_no, UB type, UB set_freq )$/;"	f
+SetMotorPositionSearchStart	.\MotorDrive.c	/^void SetMotorPositionSearchStart( UB motor_no )$/;"	f
+SetMotorStart	.\MotorDrive.c	/^void SetMotorStart( UB motor_no )$/;"	f
+SetMotorStartSPK	.\MotorDrive.c	/^void SetMotorStartSPK( void )$/;"	f
+SetMotorStepCounter	.\MotorDrive.c	/^void SetMotorStepCounter( UB motor_no, H steps )$/;"	f
+SetMotorStop	.\MotorDrive.c	/^void SetMotorStop( UB motor_no )$/;"	f
+SetMotorStopSPK	.\MotorDrive.c	/^void SetMotorStopSPK(void)$/;"	f
+SetOutPutLATX	.\MotorDrive.c	/^void SetOutPutLATX(void){$/;"	f
+SetPulseOutLATxWork_M0_FWD_POL0_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_FWD_POL0_OFF( void )$/;"	f
+SetPulseOutLATxWork_M0_FWD_POL0_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_FWD_POL0_P1( void )$/;"	f
+SetPulseOutLATxWork_M0_FWD_POL0_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_FWD_POL0_P2( void )$/;"	f
+SetPulseOutLATxWork_M0_FWD_POL1_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_FWD_POL1_OFF( void )$/;"	f
+SetPulseOutLATxWork_M0_FWD_POL1_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_FWD_POL1_P1( void )$/;"	f
+SetPulseOutLATxWork_M0_FWD_POL1_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_FWD_POL1_P2( void )$/;"	f
+SetPulseOutLATxWork_M0_REV_POL0_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_REV_POL0_OFF( void )$/;"	f
+SetPulseOutLATxWork_M0_REV_POL0_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_REV_POL0_P1( void )$/;"	f
+SetPulseOutLATxWork_M0_REV_POL0_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_REV_POL0_P2( void )$/;"	f
+SetPulseOutLATxWork_M0_REV_POL1_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_REV_POL1_OFF( void )$/;"	f
+SetPulseOutLATxWork_M0_REV_POL1_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_REV_POL1_P1( void )$/;"	f
+SetPulseOutLATxWork_M0_REV_POL1_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_REV_POL1_P2( void )$/;"	f
+SetPulseOutLATxWork_M0_SHAKE_POL0_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_SHAKE_POL0_OFF( void )$/;"	f
+SetPulseOutLATxWork_M0_SHAKE_POL0_P0	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_SHAKE_POL0_P0( void )$/;"	f
+SetPulseOutLATxWork_M0_SHAKE_POL1_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_SHAKE_POL1_OFF( void )$/;"	f
+SetPulseOutLATxWork_M0_SHAKE_POL1_P0	.\MotorDrive.c	/^void SetPulseOutLATxWork_M0_SHAKE_POL1_P0( void )$/;"	f
+SetPulseOutLATxWork_M1_FWD_POL0_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_FWD_POL0_OFF( void )$/;"	f
+SetPulseOutLATxWork_M1_FWD_POL0_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_FWD_POL0_P1( void )$/;"	f
+SetPulseOutLATxWork_M1_FWD_POL0_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_FWD_POL0_P2( void )$/;"	f
+SetPulseOutLATxWork_M1_FWD_POL1_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_FWD_POL1_OFF( void )$/;"	f
+SetPulseOutLATxWork_M1_FWD_POL1_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_FWD_POL1_P1( void )$/;"	f
+SetPulseOutLATxWork_M1_FWD_POL1_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_FWD_POL1_P2( void )$/;"	f
+SetPulseOutLATxWork_M1_REV_POL0_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_REV_POL0_OFF( void )$/;"	f
+SetPulseOutLATxWork_M1_REV_POL0_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_REV_POL0_P1( void )$/;"	f
+SetPulseOutLATxWork_M1_REV_POL0_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_REV_POL0_P2( void )$/;"	f
+SetPulseOutLATxWork_M1_REV_POL1_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_REV_POL1_OFF( void )$/;"	f
+SetPulseOutLATxWork_M1_REV_POL1_P1	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_REV_POL1_P1( void )$/;"	f
+SetPulseOutLATxWork_M1_REV_POL1_P2	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_REV_POL1_P2( void )$/;"	f
+SetPulseOutLATxWork_M1_SHAKE_POL0_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_SHAKE_POL0_OFF( void )$/;"	f
+SetPulseOutLATxWork_M1_SHAKE_POL0_P0	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_SHAKE_POL0_P0( void )$/;"	f
+SetPulseOutLATxWork_M1_SHAKE_POL1_OFF	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_SHAKE_POL1_OFF( void )$/;"	f
+SetPulseOutLATxWork_M1_SHAKE_POL1_P0	.\MotorDrive.c	/^void SetPulseOutLATxWork_M1_SHAKE_POL1_P0( void )$/;"	f
+SetSearchBasePosition	.\MotorDrive.c	/^void SetSearchBasePosition( UB motor_no, UB sw )$/;"	f
+SpiCmdFunc_DisableExcitating	.\spi_control.c	/^void SpiCmdFunc_DisableExcitating( UB motor_no )$/;"	f
+SpiCmdFunc_EnableExcitating	.\spi_control.c	/^void SpiCmdFunc_EnableExcitating( UB motor_no )$/;"	f
+SpiCmdFunc_FwdPulseNormal	.\spi_control.c	/^void SpiCmdFunc_FwdPulseNormal( UB motor_no )$/;"	f
+SpiCmdFunc_FwdPulsePositionCtl	.\spi_control.c	/^void SpiCmdFunc_FwdPulsePositionCtl( UB motor_no )$/;"	f
+SpiCmdFunc_FwdPulseWithCorrect	.\spi_control.c	/^void SpiCmdFunc_FwdPulseWithCorrect( UB motor_no )$/;"	f
+SpiCmdFunc_FwdPulseWithShake	.\spi_control.c	/^void SpiCmdFunc_FwdPulseWithShake( UB motor_no )$/;"	f
+SpiCmdFunc_RevPulseNormal	.\spi_control.c	/^void SpiCmdFunc_RevPulseNormal( UB motor_no )$/;"	f
+SpiCmdFunc_RevPulsePositionCtl	.\spi_control.c	/^void SpiCmdFunc_RevPulsePositionCtl( UB motor_no )$/;"	f
+SpiCmdFunc_Search1008Position	.\spi_control.c	/^void SpiCmdFunc_Search1008Position( UB motor_no )$/;"	f
+SpiCmdFunc_SearchBasePosition	.\spi_control.c	/^void SpiCmdFunc_SearchBasePosition( UB motor_no )$/;"	f
+SpiCmdFunc_SearchLoadPosition	.\spi_control.c	/^void SpiCmdFunc_SearchLoadPosition( UB motor_no )$/;"	f
+SpiCmdFunc_StartDetectVrs	.\spi_control.c	/^void SpiCmdFunc_StartDetectVrs( UB motor_no )$/;"	f
+SpiCmdFunc_StopDetectVrs	.\spi_control.c	/^void SpiCmdFunc_StopDetectVrs( UB motor_no )$/;"	f
+SpiCmdFunc_Test	.\spi_control.c	/^void SpiCmdFunc_Test( UB motor_no )$/;"	f
+SpiCmmandFunction	.\spi_control.c	/^static void ( * const SpiCmmandFunction[ ID_CMD_TYPE_MAX ] )( UB motor_no ) = {$/;"	v	file:
+SpkComparatorOff	.\MotorDrive.c	/^void SpkComparatorOff( void )$/;"	f
+SpkComparatorOn	.\MotorDrive.c	/^void SpkComparatorOn( void )$/;"	f
+SpkVrsCheck	.\MotorDrive.c	/^void SpkVrsCheck(void)$/;"	f
+StartPulseOutM0	.\MotorDrive.c	/^void StartPulseOutM0( void )$/;"	f
+StartPulseOutM1	.\MotorDrive.c	/^void StartPulseOutM1( void )$/;"	f
+THRESHOLD_FINE_DIFF_LOWER	.\MotorDrive.c	458;"	d	file:
+THRESHOLD_FINE_DIFF_UPPER	.\MotorDrive.c	457;"	d	file:
+THRESHOLD_ROUGH_DIFF_UPPER	.\MotorDrive.c	461;"	d	file:
+TMR1_CallBack	.\mcc_generated_files\tmr1.c	/^void TMR1_CallBack(void)$/;"	f
+TMR1_CheckGateValueStatus	.\mcc_generated_files\tmr1.c	/^uint8_t TMR1_CheckGateValueStatus(void)$/;"	f
+TMR1_DefaultInterruptHandler	.\mcc_generated_files\tmr1.c	/^void TMR1_DefaultInterruptHandler(void){$/;"	f
+TMR1_H	.\mcc_generated_files\tmr1.h	48;"	d
+TMR1_INTERRUPT_TICKER_FACTOR	.\mcc_generated_files\tmr1.h	63;"	d
+TMR1_ISR	.\mcc_generated_files\tmr1.c	/^void TMR1_ISR(void)$/;"	f
+TMR1_Initialize	.\mcc_generated_files\tmr1.c	/^void TMR1_Initialize(void)$/;"	f
+TMR1_InterruptHandler	.\mcc_generated_files\tmr1.c	/^void (*TMR1_InterruptHandler)(void);$/;"	v
+TMR1_ReadTimer	.\mcc_generated_files\tmr1.c	/^uint16_t TMR1_ReadTimer(void)$/;"	f
+TMR1_Reload	.\mcc_generated_files\tmr1.c	/^void TMR1_Reload(void)$/;"	f
+TMR1_SetInterruptHandler	.\mcc_generated_files\tmr1.c	/^void TMR1_SetInterruptHandler(void (* InterruptHandler)(void)){$/;"	f
+TMR1_StartSinglePulseAcquisition	.\mcc_generated_files\tmr1.c	/^void TMR1_StartSinglePulseAcquisition(void)$/;"	f
+TMR1_StartTimer	.\mcc_generated_files\tmr1.c	/^void TMR1_StartTimer(void)$/;"	f
+TMR1_StopTimer	.\mcc_generated_files\tmr1.c	/^void TMR1_StopTimer(void)$/;"	f
+TMR1_WriteTimer	.\mcc_generated_files\tmr1.c	/^void TMR1_WriteTimer(uint16_t timerVal)$/;"	f
+TMR2_CallBack	.\mcc_generated_files\tmr2.c	/^void TMR2_CallBack(void)$/;"	f
+TMR2_DefaultInterruptHandler	.\mcc_generated_files\tmr2.c	/^void TMR2_DefaultInterruptHandler(void){$/;"	f
+TMR2_H	.\mcc_generated_files\tmr2.h	48;"	d
+TMR2_ISR	.\mcc_generated_files\tmr2.c	/^void TMR2_ISR(void)$/;"	f
+TMR2_Initialize	.\mcc_generated_files\tmr2.c	/^void TMR2_Initialize(void)$/;"	f
+TMR2_Interrupt	.\MotorDrive.c	/^void TMR2_Interrupt( void )$/;"	f
+TMR2_InterruptHandler	.\mcc_generated_files\tmr2.c	/^void (*TMR2_InterruptHandler)(void);$/;"	v
+TMR2_Interrupt_SPK	.\MotorDrive.c	/^void TMR2_Interrupt_SPK( void )$/;"	f
+TMR2_LoadPeriodRegister	.\mcc_generated_files\tmr2.c	/^void TMR2_LoadPeriodRegister(uint8_t periodVal)$/;"	f
+TMR2_ReadTimer	.\mcc_generated_files\tmr2.c	/^uint8_t TMR2_ReadTimer(void)$/;"	f
+TMR2_SetInterruptHandler	.\mcc_generated_files\tmr2.c	/^void TMR2_SetInterruptHandler(void (* InterruptHandler)(void)){$/;"	f
+TMR2_StartTimer	.\mcc_generated_files\tmr2.c	/^void TMR2_StartTimer(void)$/;"	f
+TMR2_StopTimer	.\mcc_generated_files\tmr2.c	/^void TMR2_StopTimer(void)$/;"	f
+TMR2_WriteTimer	.\mcc_generated_files\tmr2.c	/^void TMR2_WriteTimer(uint8_t timerVal)$/;"	f
+TRUE	.\data_types.h	32;"	d
+TblM0PulseChangePosition	.\MotorDrive.c	/^static const UB TblM0PulseChangePosition[ PULSE_CHANGE_ARRAY_LENGTH ] = {$/;"	v	file:
+TblM0PulseChangePositionLast	.\MotorDrive.c	/^static UB TblM0PulseChangePositionLast;$/;"	v	file:
+TblM1PulseChangePosition	.\MotorDrive.c	/^static const UB TblM1PulseChangePosition[ PULSE_CHANGE_ARRAY_LENGTH ] = {$/;"	v	file:
+TblM1PulseChangePositionLast	.\MotorDrive.c	/^static UB TblM1PulseChangePositionLast;$/;"	v	file:
+TblMaxSearchSteps	.\MotorDrive.c	/^static const H TblMaxSearchSteps[ MOTOR_NUM ] = {$/;"	v	file:
+TblMaxSteps	.\MotorDrive.c	/^static const H TblMaxSteps[ MOTOR_NUM ] = {$/;"	v	file:
+UB	.\data_types.h	/^typedef		unsigned char	UB;							\/\/ $BId9fL5$7(B 8$B%S%C%H@0?t(B$/;"	t
+UB_BIT	.\data_types.h	/^} UB_BIT;$/;"	t	typeref:union:__anon1
+UH	.\data_types.h	/^typedef		unsigned short	UH;							\/\/ $BId9fL5$7(B16$B%S%C%H@0?t(B$/;"	t
+UW	.\data_types.h	/^typedef		unsigned long	UW;							\/\/ $BId9fL5$7(B32$B%S%C%H@0?t(B$/;"	t
+UpdataHandPosition	.\MotorDrive.c	/^void UpdataHandPosition( UB motor_no )$/;"	f
+UpdateCurrentPositionByFinePosition	.\MotorDrive.c	/^void UpdateCurrentPositionByFinePosition( UB motor_no )$/;"	f
+UpdateTargetPosition	.\MotorDrive.c	/^void UpdateTargetPosition( UB motor_no, H steps )$/;"	f
+V	.\data_types.h	/^	UB V;$/;"	m	union:__anon1
+VerifyHandPosition_LoadPosition	.\MotorDrive.c	/^void VerifyHandPosition_LoadPosition( UB motor_no )$/;"	f
+VrsCheck	.\MotorDrive.c	/^void VrsCheck( UB motor_no )$/;"	f
+W	.\data_types.h	/^typedef		signed long		W;							\/\/ $BId9fIU$-(B32$B%S%C%H@0?t(B$/;"	t
+WDT_Initialize	.\mcc_generated_files\mcc.c	/^void WDT_Initialize(void)$/;"	f
+WIDTH_PULSE_OFF_DEF	.\MotorDrive.c	349;"	d	file:
+WIDTH_PULSE_OFF_MIN	.\MotorDrive.c	348;"	d	file:
+WIDTH_PULSE_P0	.\MotorDrive.c	336;"	d	file:
+WIDTH_PULSE_P0	.\MotorDrive.c	338;"	d	file:
+WIDTH_PULSE_P1	.\MotorDrive.c	346;"	d	file:
+WIDTH_PULSE_P2	.\MotorDrive.c	347;"	d	file:
+WIDTH_SHAKE_PULSE_ALL	.\MotorDrive.c	351;"	d	file:
+WIDTH_SPK_OFF	.\MotorDrive.c	344;"	d	file:
+WIDTH_SPK_ON	.\MotorDrive.c	343;"	d	file:
+WIDTH_SPK_START_WAIT	.\MotorDrive.c	342;"	d	file:
+WatchMotorDriveFinish	.\MotorDrive.c	/^void WatchMotorDriveFinish( void )$/;"	f
+_XTAL_FREQ	.\mcc_generated_files\device_config.h	50;"	d
+actCorrectDriveBit	.\MotorDrive.c	/^UB actCorrectDriveBit;							\/\/ $BJd@56nF0<B9TCf%U%i%0(B$/;"	v
+add	.\mcc_generated_files\spi.c	/^    uint8_t add;$/;"	m	struct:__anon3	file:
+addShakePulseBit	.\MotorDrive.c	/^static UB addShakePulseBit; 				\/\/ $BMIF0%Q%k%9DI2C!!(B0:$BMIF0%Q%k%9L5$7!"(B1:$BMIF0%Q%k%9M-$j(B$/;"	v	file:
+b0	.\data_types.h	/^		UB b0  : 1 ;$/;"	m	struct:__anon1::__anon2
+b0000_0000	.\misc.h	16;"	d
+b0000_0001	.\misc.h	17;"	d
+b0000_0010	.\misc.h	18;"	d
+b0000_0011	.\misc.h	19;"	d
+b0000_0100	.\misc.h	20;"	d
+b0000_0101	.\misc.h	21;"	d
+b0000_0110	.\misc.h	22;"	d
+b0000_0111	.\misc.h	23;"	d
+b0000_1000	.\misc.h	24;"	d
+b0000_1001	.\misc.h	25;"	d
+b0000_1010	.\misc.h	26;"	d
+b0000_1011	.\misc.h	27;"	d
+b0000_1100	.\misc.h	28;"	d
+b0000_1101	.\misc.h	29;"	d
+b0000_1110	.\misc.h	30;"	d
+b0000_1111	.\misc.h	31;"	d
+b0001_0000	.\misc.h	32;"	d
+b0001_0001	.\misc.h	33;"	d
+b0001_0010	.\misc.h	34;"	d
+b0001_0011	.\misc.h	35;"	d
+b0001_0100	.\misc.h	36;"	d
+b0001_0101	.\misc.h	37;"	d
+b0001_0110	.\misc.h	38;"	d
+b0001_0111	.\misc.h	39;"	d
+b0001_1000	.\misc.h	40;"	d
+b0001_1001	.\misc.h	41;"	d
+b0001_1010	.\misc.h	42;"	d
+b0001_1011	.\misc.h	43;"	d
+b0001_1100	.\misc.h	44;"	d
+b0001_1101	.\misc.h	45;"	d
+b0001_1110	.\misc.h	46;"	d
+b0001_1111	.\misc.h	47;"	d
+b0010_0000	.\misc.h	48;"	d
+b0010_0001	.\misc.h	49;"	d
+b0010_0010	.\misc.h	50;"	d
+b0010_0011	.\misc.h	51;"	d
+b0010_0100	.\misc.h	52;"	d
+b0010_0101	.\misc.h	53;"	d
+b0010_0110	.\misc.h	54;"	d
+b0010_0111	.\misc.h	55;"	d
+b0010_1000	.\misc.h	56;"	d
+b0010_1001	.\misc.h	57;"	d
+b0010_1010	.\misc.h	58;"	d
+b0010_1011	.\misc.h	59;"	d
+b0010_1100	.\misc.h	60;"	d
+b0010_1101	.\misc.h	61;"	d
+b0010_1110	.\misc.h	62;"	d
+b0010_1111	.\misc.h	63;"	d
+b0011_0000	.\misc.h	64;"	d
+b0011_0001	.\misc.h	65;"	d
+b0011_0010	.\misc.h	66;"	d
+b0011_0011	.\misc.h	67;"	d
+b0011_0100	.\misc.h	68;"	d
+b0011_0101	.\misc.h	69;"	d
+b0011_0110	.\misc.h	70;"	d
+b0011_0111	.\misc.h	71;"	d
+b0011_1000	.\misc.h	72;"	d
+b0011_1001	.\misc.h	73;"	d
+b0011_1010	.\misc.h	74;"	d
+b0011_1011	.\misc.h	75;"	d
+b0011_1100	.\misc.h	76;"	d
+b0011_1101	.\misc.h	77;"	d
+b0011_1110	.\misc.h	78;"	d
+b0011_1111	.\misc.h	79;"	d
+b0100_0000	.\misc.h	80;"	d
+b0100_0001	.\misc.h	81;"	d
+b0100_0010	.\misc.h	82;"	d
+b0100_0011	.\misc.h	83;"	d
+b0100_0100	.\misc.h	84;"	d
+b0100_0101	.\misc.h	85;"	d
+b0100_0110	.\misc.h	86;"	d
+b0100_0111	.\misc.h	87;"	d
+b0100_1000	.\misc.h	88;"	d
+b0100_1001	.\misc.h	89;"	d
+b0100_1010	.\misc.h	90;"	d
+b0100_1011	.\misc.h	91;"	d
+b0100_1100	.\misc.h	92;"	d
+b0100_1101	.\misc.h	93;"	d
+b0100_1110	.\misc.h	94;"	d
+b0100_1111	.\misc.h	95;"	d
+b0101_0000	.\misc.h	96;"	d
+b0101_0001	.\misc.h	97;"	d
+b0101_0010	.\misc.h	98;"	d
+b0101_0011	.\misc.h	99;"	d
+b0101_0100	.\misc.h	100;"	d
+b0101_0101	.\misc.h	101;"	d
+b0101_0110	.\misc.h	102;"	d
+b0101_0111	.\misc.h	103;"	d
+b0101_1000	.\misc.h	104;"	d
+b0101_1001	.\misc.h	105;"	d
+b0101_1010	.\misc.h	106;"	d
+b0101_1011	.\misc.h	107;"	d
+b0101_1100	.\misc.h	108;"	d
+b0101_1101	.\misc.h	109;"	d
+b0101_1110	.\misc.h	110;"	d
+b0101_1111	.\misc.h	111;"	d
+b0110_0000	.\misc.h	112;"	d
+b0110_0001	.\misc.h	113;"	d
+b0110_0010	.\misc.h	114;"	d
+b0110_0011	.\misc.h	115;"	d
+b0110_0100	.\misc.h	116;"	d
+b0110_0101	.\misc.h	117;"	d
+b0110_0110	.\misc.h	118;"	d
+b0110_0111	.\misc.h	119;"	d
+b0110_1000	.\misc.h	120;"	d
+b0110_1001	.\misc.h	121;"	d
+b0110_1010	.\misc.h	122;"	d
+b0110_1011	.\misc.h	123;"	d
+b0110_1100	.\misc.h	124;"	d
+b0110_1101	.\misc.h	125;"	d
+b0110_1110	.\misc.h	126;"	d
+b0110_1111	.\misc.h	127;"	d
+b0111_0000	.\misc.h	128;"	d
+b0111_0001	.\misc.h	129;"	d
+b0111_0010	.\misc.h	130;"	d
+b0111_0011	.\misc.h	131;"	d
+b0111_0100	.\misc.h	132;"	d
+b0111_0101	.\misc.h	133;"	d
+b0111_0110	.\misc.h	134;"	d
+b0111_0111	.\misc.h	135;"	d
+b0111_1000	.\misc.h	136;"	d
+b0111_1001	.\misc.h	137;"	d
+b0111_1010	.\misc.h	138;"	d
+b0111_1011	.\misc.h	139;"	d
+b0111_1100	.\misc.h	140;"	d
+b0111_1101	.\misc.h	141;"	d
+b0111_1110	.\misc.h	142;"	d
+b0111_1111	.\misc.h	143;"	d
+b1	.\data_types.h	/^		UB b1  : 1 ;$/;"	m	struct:__anon1::__anon2
+b1000_0000	.\misc.h	144;"	d
+b1000_0001	.\misc.h	145;"	d
+b1000_0010	.\misc.h	146;"	d
+b1000_0011	.\misc.h	147;"	d
+b1000_0100	.\misc.h	148;"	d
+b1000_0101	.\misc.h	149;"	d
+b1000_0110	.\misc.h	150;"	d
+b1000_0111	.\misc.h	151;"	d
+b1000_1000	.\misc.h	152;"	d
+b1000_1001	.\misc.h	153;"	d
+b1000_1010	.\misc.h	154;"	d
+b1000_1011	.\misc.h	155;"	d
+b1000_1100	.\misc.h	156;"	d
+b1000_1101	.\misc.h	157;"	d
+b1000_1110	.\misc.h	158;"	d
+b1000_1111	.\misc.h	159;"	d
+b1001_0000	.\misc.h	160;"	d
+b1001_0001	.\misc.h	161;"	d
+b1001_0010	.\misc.h	162;"	d
+b1001_0011	.\misc.h	163;"	d
+b1001_0100	.\misc.h	164;"	d
+b1001_0101	.\misc.h	165;"	d
+b1001_0110	.\misc.h	166;"	d
+b1001_0111	.\misc.h	167;"	d
+b1001_1000	.\misc.h	168;"	d
+b1001_1001	.\misc.h	169;"	d
+b1001_1010	.\misc.h	170;"	d
+b1001_1011	.\misc.h	171;"	d
+b1001_1100	.\misc.h	172;"	d
+b1001_1101	.\misc.h	173;"	d
+b1001_1110	.\misc.h	174;"	d
+b1001_1111	.\misc.h	175;"	d
+b1010_0000	.\misc.h	176;"	d
+b1010_0001	.\misc.h	177;"	d
+b1010_0010	.\misc.h	178;"	d
+b1010_0011	.\misc.h	179;"	d
+b1010_0100	.\misc.h	180;"	d
+b1010_0101	.\misc.h	181;"	d
+b1010_0110	.\misc.h	182;"	d
+b1010_0111	.\misc.h	183;"	d
+b1010_1000	.\misc.h	184;"	d
+b1010_1001	.\misc.h	185;"	d
+b1010_1010	.\misc.h	186;"	d
+b1010_1011	.\misc.h	187;"	d
+b1010_1100	.\misc.h	188;"	d
+b1010_1101	.\misc.h	189;"	d
+b1010_1110	.\misc.h	190;"	d
+b1010_1111	.\misc.h	191;"	d
+b1011_0000	.\misc.h	192;"	d
+b1011_0001	.\misc.h	193;"	d
+b1011_0010	.\misc.h	194;"	d
+b1011_0011	.\misc.h	195;"	d
+b1011_0100	.\misc.h	196;"	d
+b1011_0101	.\misc.h	197;"	d
+b1011_0110	.\misc.h	198;"	d
+b1011_0111	.\misc.h	199;"	d
+b1011_1000	.\misc.h	200;"	d
+b1011_1001	.\misc.h	201;"	d
+b1011_1010	.\misc.h	202;"	d
+b1011_1011	.\misc.h	203;"	d
+b1011_1100	.\misc.h	204;"	d
+b1011_1101	.\misc.h	205;"	d
+b1011_1110	.\misc.h	206;"	d
+b1011_1111	.\misc.h	207;"	d
+b1100_0000	.\misc.h	208;"	d
+b1100_0001	.\misc.h	209;"	d
+b1100_0010	.\misc.h	210;"	d
+b1100_0011	.\misc.h	211;"	d
+b1100_0100	.\misc.h	212;"	d
+b1100_0101	.\misc.h	213;"	d
+b1100_0110	.\misc.h	214;"	d
+b1100_0111	.\misc.h	215;"	d
+b1100_1000	.\misc.h	216;"	d
+b1100_1001	.\misc.h	217;"	d
+b1100_1010	.\misc.h	218;"	d
+b1100_1011	.\misc.h	219;"	d
+b1100_1100	.\misc.h	220;"	d
+b1100_1101	.\misc.h	221;"	d
+b1100_1110	.\misc.h	222;"	d
+b1100_1111	.\misc.h	223;"	d
+b1101_0000	.\misc.h	224;"	d
+b1101_0001	.\misc.h	225;"	d
+b1101_0010	.\misc.h	226;"	d
+b1101_0011	.\misc.h	227;"	d
+b1101_0100	.\misc.h	228;"	d
+b1101_0101	.\misc.h	229;"	d
+b1101_0110	.\misc.h	230;"	d
+b1101_0111	.\misc.h	231;"	d
+b1101_1000	.\misc.h	232;"	d
+b1101_1001	.\misc.h	233;"	d
+b1101_1010	.\misc.h	234;"	d
+b1101_1011	.\misc.h	235;"	d
+b1101_1100	.\misc.h	236;"	d
+b1101_1101	.\misc.h	237;"	d
+b1101_1110	.\misc.h	238;"	d
+b1101_1111	.\misc.h	239;"	d
+b1110_0000	.\misc.h	240;"	d
+b1110_0001	.\misc.h	241;"	d
+b1110_0010	.\misc.h	242;"	d
+b1110_0011	.\misc.h	243;"	d
+b1110_0100	.\misc.h	244;"	d
+b1110_0101	.\misc.h	245;"	d
+b1110_0110	.\misc.h	246;"	d
+b1110_0111	.\misc.h	247;"	d
+b1110_1000	.\misc.h	248;"	d
+b1110_1001	.\misc.h	249;"	d
+b1110_1010	.\misc.h	250;"	d
+b1110_1011	.\misc.h	251;"	d
+b1110_1100	.\misc.h	252;"	d
+b1110_1101	.\misc.h	253;"	d
+b1110_1110	.\misc.h	254;"	d
+b1110_1111	.\misc.h	255;"	d
+b1111_0000	.\misc.h	256;"	d
+b1111_0001	.\misc.h	257;"	d
+b1111_0010	.\misc.h	258;"	d
+b1111_0011	.\misc.h	259;"	d
+b1111_0100	.\misc.h	260;"	d
+b1111_0101	.\misc.h	261;"	d
+b1111_0110	.\misc.h	262;"	d
+b1111_0111	.\misc.h	263;"	d
+b1111_1000	.\misc.h	264;"	d
+b1111_1001	.\misc.h	265;"	d
+b1111_1010	.\misc.h	266;"	d
+b1111_1011	.\misc.h	267;"	d
+b1111_1100	.\misc.h	268;"	d
+b1111_1101	.\misc.h	269;"	d
+b1111_1110	.\misc.h	270;"	d
+b1111_1111	.\misc.h	271;"	d
+b2	.\data_types.h	/^		UB b2  : 1 ;$/;"	m	struct:__anon1::__anon2
+b3	.\data_types.h	/^		UB b3  : 1 ;$/;"	m	struct:__anon1::__anon2
+b4	.\data_types.h	/^		UB b4  : 1 ;$/;"	m	struct:__anon1::__anon2
+b5	.\data_types.h	/^		UB b5  : 1 ;$/;"	m	struct:__anon1::__anon2
+b6	.\data_types.h	/^		UB b6  : 1 ;$/;"	m	struct:__anon1::__anon2
+b7	.\data_types.h	/^		UB b7  : 1 ;$/;"	m	struct:__anon1::__anon2
+cbAfterDetectLoadFunc	.\MotorDrive.c	/^static void ( * cbAfterDetectLoadFunc[ MOTOR_NUM ] )( UB motor_no );$/;"	v	file:
+cbAfterMotorStopFunc	.\MotorDrive.c	/^static void ( * cbAfterMotorStopFunc[ MOTOR_NUM ] )( UB motor_no );$/;"	v	file:
+con1	.\mcc_generated_files\spi.c	/^    uint8_t con1; $/;"	m	struct:__anon3	file:
+correctDriveDirectionBit	.\MotorDrive.c	/^static UB correctDriveDirectionBit;			\/\/ $BJd@56nF02sE>J}8~(B$/;"	v	file:
+correctDriveFinishPositionCtSet	.\MotorDrive.c	/^static UB correctDriveFinishPositionCtSet[ MOTOR_NUM ]; \/\/ $B6nF0<~GH?t$K1~$8$?(BmxPulsePositionCt$B$N:G8e$NCM(B$/;"	v	file:
+correctDriveSteps	.\MotorDrive.c	/^static UB correctDriveSteps[ MOTOR_NUM ];	\/\/ $BJd@56nF0%9%F%C%W?t(B$/;"	v	file:
+currentPosition	.\MotorDrive.c	/^static H  currentPosition[ MOTOR_NUM ];					\/\/ $B8=:_0LCV(B$/;"	v	file:
+dataTRISA	.\MotorDrive.c	/^static UB dataTRISA; 						\/\/ $B%]!<%H$NF~=PNO@_Dj%G!<%?!J:G=*CM!K(B$/;"	v	file:
+dataTRISAWork_M0	.\MotorDrive.c	/^static UB dataTRISAWork_M0; 				\/\/ $B%]!<%H$NF~=PNO%G!<%?(BWork$/;"	v	file:
+dataTRISAWork_M1	.\MotorDrive.c	/^static UB dataTRISAWork_M1; 				\/\/ $B%]!<%H$NF~=PNO%G!<%?(BWork$/;"	v	file:
+dataTRISB	.\MotorDrive.c	/^static UB dataTRISB;$/;"	v	file:
+dataTRISBWork_M0	.\MotorDrive.c	/^static UB dataTRISBWork_M0;$/;"	v	file:
+dataTRISBWork_M1	.\MotorDrive.c	/^static UB dataTRISBWork_M1;$/;"	v	file:
+dataTRISC	.\MotorDrive.c	/^static UB dataTRISC;$/;"	v	file:
+dataTRISCWork_M0	.\MotorDrive.c	/^static UB dataTRISCWork_M0;$/;"	v	file:
+dataTRISCWork_M1	.\MotorDrive.c	/^static UB dataTRISCWork_M1;$/;"	v	file:
+detectBasePosition	.\MotorDrive.c	/^static H  detectBasePosition[ MOTOR_NUM ];				\/\/ $B8+$D$1$?4p=`0LCV!J:#$N?K0LCV%+%&%s%?>e!"<h$jIU$1%*%U%;%C%H9~!K(B$/;"	v	file:
+detectFinePosCt	.\MotorDrive.c	/^static UB detectFinePosCt[ MOTOR_NUM ]; 				\/\/ $BHyD4@00LCV$r8+$D$1$?2s?t(B($BHyD4@0$,(B8$B2U=j!"AFD4@0$,(B1$B2U=j$G@.8y(B)$/;"	v	file:
+detectLoadCont	.\MotorDrive.c	/^static UB detectLoadCont[ MOTOR_NUM ]; 					\/\/ $B0l$D$NH=Dj$NO"B32s?t(B$/;"	v	file:
+detectLoadPosition	.\MotorDrive.c	/^static H  detectLoadPosition[ MOTOR_NUM ][ MAX_LOAD_POSITION_ARRAY_LENGTH ];		\/\/ 82$/;"	v	file:
+detectLoadPositionIndex	.\MotorDrive.c	/^static UB detectLoadPositionIndex[ MOTOR_NUM ];$/;"	v	file:
+detectLoadPositionPtr	.\MotorDrive.c	/^static H  *detectLoadPositionPtr[ MOTOR_NUM ];$/;"	v	file:
+detectLoadPositionType	.\MotorDrive.c	/^static UB detectLoadPositionType[ MOTOR_NUM ][ MAX_LOAD_POSITION_ARRAY_LENGTH ];	\/\/ 42 206byte$/;"	v	file:
+detectLoadPositionTypePtr	.\MotorDrive.c	/^static UB *detectLoadPositionTypePtr[ MOTOR_NUM ];$/;"	v	file:
+detectLoadType	.\MotorDrive.c	/^static UB detectLoadType[ MOTOR_NUM ]; 					\/\/ $B:#2s8+$D$1$?Ii2Y$N%?%$%W(B$/;"	v	file:
+detectRoughPosCt	.\MotorDrive.c	/^static UB detectRoughPosCt[ MOTOR_NUM ]; 				\/\/ $BAFD4@00LCV$r8+$D$1$?2s?t(B($BHyD4@0$,(B8$B2U=j!"AFD4@0$,(B1$B2U=j$G@.8y(B)$/;"	v	file:
+detectRoughTotalMove	.\MotorDrive.c	/^static H  detectRoughTotalMove[ MOTOR_NUM ];			\/\/ $BAFD4@0$HH=Dj$7$?%H!<%?%k0\\F0NL!JAFD4@00LCV$N0\\F0NL!\\<!$NH>C<$JCM$,HyD4@04V3V$+3NG'$9$k!K(B$/;"	v	file:
+detectSpkTurnBit	.\MotorDrive.c	/^static UB detectSpkTurnBit;                 \/\/ $B8!=PC<;R$N@Z$jBX$(%U%i%0(B 0:O4$B!!(B1:O3$/;"	v	file:
+doubleInterval	.\MotorDrive.c	/^static UB doubleInterval;$/;"	v	file:
+driveDirectionBit	.\MotorDrive.c	/^static UB driveDirectionBit; 				\/\/ $B2sE>J}8~(B0:$B5UE>!"(B1:$B@5E>(B$/;"	v	file:
+driveType	.\MotorDrive.c	/^static UB driveType[ MOTOR_NUM ];$/;"	v	file:
+excitatingEnableBit	.\MotorDrive.c	/^static UB excitatingEnableBit;          	\/\/ Vrs$B8!=P$7$?$H$-$KNe<'$5$;$k$+$5$;$J$$$+(B		0:$BNe<'$J$7!"(B1:$BNe<'$"$j(B$/;"	v	file:
+excitatingOffMaskTime	.\MotorDrive.c	/^static UB excitatingOffMaskTime;            \/\/ $BNe<'(BOFF$B8e$N%^%9%\/;~4V%+%&%s%H(B$/;"	v	file:
+excitatingTime	.\MotorDrive.c	/^static UH excitatingTime;					\/\/ $BNe<';~4V%+%&%s%H(B$/;"	v	file:
+finishPositionCtSet	.\MotorDrive.c	/^static UB finishPositionCtSet[ MOTOR_NUM ]; \/\/ $B6nF0<~GH?t$K1~$8$?(BmxPulsePositionCt$B$N:G8e$NCM(B$/;"	v	file:
+handPositionActiveBit	.\MotorDrive.c	/^UB handPositionActiveBit;						\/\/ 0:$B?K0LCVL58z"*0LCV8!=P$,L$N;!"(B1:$B?K0LCVM-8z"*0LCV8!=P$,=*N;(B$/;"	v
+loadPosition	.\MotorDrive.c	/^static H  loadPosition[ MOTOR_NUM ][ MAX_LOAD_POSITION_ARRAY_LENGTH ];				\/\/ 82$/;"	v	file:
+loadPositionIndex	.\MotorDrive.c	/^static UB loadPositionIndex[ MOTOR_NUM ];$/;"	v	file:
+loadPositionType	.\MotorDrive.c	/^static UB loadPositionType[ MOTOR_NUM ][ MAX_LOAD_POSITION_ARRAY_LENGTH ];			\/\/ 42$/;"	v	file:
+m0PulseChangePosition	.\MotorDrive.c	/^static UB m0PulseChangePosition; 			\/\/ pulsePositionCt$B$,$3$NCM$N$H$-$K!"(BpulseOutM0LATx$B$rJQ99$9$k(B$/;"	v	file:
+m0PulseOutChangeFunc	.\MotorDrive.c	/^static void ( *m0PulseOutChangeFunc )( void ) = NULL_PTR;$/;"	v	file:
+m0PulseOutStep	.\MotorDrive.c	/^static UB m0PulseOutStep; 					\/\/ 0:P1$B=PNO!"(B1:P2$B=PNO!"(B2:LOW$B=PNO(B$/;"	v	file:
+m0PulseOutStepWork	.\MotorDrive.c	/^static UB m0PulseOutStepWork; 				\/\/ $B>e5-$N%o!<%\/(B$/;"	v	file:
+m0PulsePositionCt	.\MotorDrive.c	/^static UB m0PulsePositionCt; 				\/\/ $B%Q%k%9%$%s%?!<%P%k=*N;$^$G$N%+%&%s%H(B0$B!A(B255$/;"	v	file:
+m0PulsePositionCtWork	.\MotorDrive.c	/^static UB m0PulsePositionCtWork; 			\/\/ $B>e5-$N%o!<%\/(B$/;"	v	file:
+m1PulseChangePosition	.\MotorDrive.c	/^static UB m1PulseChangePosition; 			\/\/ pulsePositionCt$B$,$3$NCM$N$H$-$K!"(BpulseOutM1LATx$B$rJQ99$9$k(B$/;"	v	file:
+m1PulseOutChangeFunc	.\MotorDrive.c	/^static void ( *m1PulseOutChangeFunc )( void ) = NULL_PTR;$/;"	v	file:
+m1PulseOutStep	.\MotorDrive.c	/^static UB m1PulseOutStep; 					\/\/$/;"	v	file:
+m1PulseOutStepWork	.\MotorDrive.c	/^static UB m1PulseOutStepWork; 				\/\/$/;"	v	file:
+m1PulsePositionCt	.\MotorDrive.c	/^static UB m1PulsePositionCt; 				\/\/ $B%Q%k%9%$%s%?!<%P%k=*N;$^$G$N%+%&%s%H(B0$B!A(B255$/;"	v	file:
+m1PulsePositionCtWork	.\MotorDrive.c	/^static UB m1PulsePositionCtWork; 			\/\/$/;"	v	file:
+main	.\main.c	/^void main(void)$/;"	f
+missingDetectFinePosition	.\MotorDrive.c	/^static H  missingDetectFinePosition;$/;"	v	file:
+motorActiveBit	.\MotorDrive.c	/^static UB motorActiveBit; 					\/\/ $B%b!<%?F0:nCf%S%C%H(B$/;"	v	file:
+motorBitOperation	.\MotorDrive.c	/^UB motorBitOperation;$/;"	v
+motorM0StepCounter	.\MotorDrive.c	/^static H  motorM0StepCounter;$/;"	v	file:
+motorM1StepCounter	.\MotorDrive.c	/^static H  motorM1StepCounter;$/;"	v	file:
+motorNoOperation	.\MotorDrive.c	/^UB motorNoOperation;$/;"	v
+motorStepCounterSet	.\MotorDrive.c	/^static H  motorStepCounterSet[ MOTOR_NUM ];$/;"	v	file:
+offsetBasePosition	.\MotorDrive.c	/^static const H  offsetBasePosition[ MOTOR_NUM ] = {$/;"	v	file:
+operation	.\mcc_generated_files\spi.c	/^    uint8_t operation;$/;"	m	struct:__anon3	file:
+polarityBit	.\MotorDrive.c	/^static UB polarityBit; 						\/\/ $B<!$K!"$^$?$O:#=PNO$9$k!J$7$F$$$k!K%b!<%?6K@-(B 0:$B<!$O(BCW1$B!"(B1:$B<!$O(BCW2$/;"	v	file:
+positionSearchCt	.\MotorDrive.c	/^static H  positionSearchCt[ MOTOR_NUM ];				\/\/ $B8!=PF0:n%+%&%s%H(B$/;"	v	file:
+positionSearchStat	.\MotorDrive.c	/^static UB positionSearchStat[ MOTOR_NUM ]; 				\/\/ $B0LCV8!=P>uBV(B$/;"	v	file:
+pulseOutLATA	.\MotorDrive.c	/^static UB pulseOutLATA; 					\/\/ $B%b!<%?C<;R$+$i(Bpulse$B=PNO$9$k$H$-$N%]!<%H%G!<%?(B$/;"	v	file:
+pulseOutLATAWork_M0	.\MotorDrive.c	/^static UB pulseOutLATAWork_M0; 				\/\/ M0$B%b!<%?C<;R$+$i(Bpulse$B=PNO$9$k$H$-$N%]!<%H%G!<%?(B$/;"	v	file:
+pulseOutLATAWork_M1	.\MotorDrive.c	/^static UB pulseOutLATAWork_M1; 				\/\/ M1$B%b!<%?C<;R$+$i(Bpulse$B=PNO$9$k$H$-$N%]!<%H%G!<%?(B$/;"	v	file:
+pulseOutLATB	.\MotorDrive.c	/^static UB pulseOutLATB;$/;"	v	file:
+pulseOutLATBWork_M0	.\MotorDrive.c	/^static UB pulseOutLATBWork_M0;$/;"	v	file:
+pulseOutLATBWork_M1	.\MotorDrive.c	/^static UB pulseOutLATBWork_M1;$/;"	v	file:
+pulseOutLATC	.\MotorDrive.c	/^static UB pulseOutLATC;$/;"	v	file:
+pulseOutLATCWork_M0	.\MotorDrive.c	/^static UB pulseOutLATCWork_M0;$/;"	v	file:
+pulseOutLATCWork_M1	.\MotorDrive.c	/^static UB pulseOutLATCWork_M1;$/;"	v	file:
+recieveCommand	.\spi_control.c	/^static UB recieveCommand;$/;"	v	file:
+reqAfterDetectLoadFuncBit	.\MotorDrive.c	/^static UB reqAfterDetectLoadFuncBit; 					\/\/ $B6nF0Cf$KIi2YH\/@8$7$?$N$G?K0LCV3NG'(B$/;"	v	file:
+reqAfterMotorStopFuncBit	.\MotorDrive.c	/^static UB reqAfterMotorStopFuncBit; 		\/\/ $B%b!<%?6nF0=*N;;~$K<B9T$9$k=hM}(B$/;"	v	file:
+reqCheckLoadPosBit	.\MotorDrive.c	/^static UB reqCheckLoadPosBit;							\/\/ $BIi2Y0LCV3NG'MW5a(B$/;"	v	file:
+reqComparatorOffBit	.\MotorDrive.c	/^static UB reqComparatorOffBit; 				\/\/ $B%3%s%Q%l!<%?(BOFF$BMW5a%U%i%0(B$/;"	v	file:
+reqComparatorOnBit	.\MotorDrive.c	/^static UB reqComparatorOnBit; 				\/\/ $B%3%s%Q%l!<%?(BON$BMW5a%U%i%0(B$/;"	v	file:
+reqCorrectBasePosBit	.\MotorDrive.c	/^UB reqCorrectBasePosBit;							\/\/ $B?K0LCVJd@5MW5a(B$/;"	v
+reqCorrectFinePoBit	.\MotorDrive.c	/^UB reqCorrectFinePoBit;								\/\/ $BHyD4@00LCV$K4p$E$$$F9T$&0LCVJd@5MW5a(B$/;"	v
+reqSearchBasePosBit	.\MotorDrive.c	/^static UB reqSearchBasePosBit;							\/\/ $B4p=`0LCV8!=PMW5a(B$/;"	v	file:
+reqStopMotorBit	.\MotorDrive.c	/^static UB reqStopMotorBit;					\/\/ $B%b!<%?6nF0Dd;_MW5a(B$/;"	v	file:
+reqVrsCheckBit	.\MotorDrive.c	/^static UB reqVrsCheckBit; 					\/\/ Vrs$B%A%'%C%\/MW5a%U%i%0(B$/;"	v	file:
+searchTotalSteps	.\MotorDrive.c	/^static H  searchTotalSteps[ MOTOR_NUM ]; 				\/\/ $B8!=P%Q%k%9$r=PNO$7$?2s?t(B$/;"	v	file:
+spi_configuration	.\mcc_generated_files\spi.c	/^static const spi_configuration_t spi_configuration[] = {   $/;"	v	file:
+spi_configuration_t	.\mcc_generated_files\spi.c	/^} spi_configuration_t;$/;"	t	typeref:struct:__anon3	file:
+spi_modes_t	.\mcc_generated_files\spi.h	/^} spi_modes_t;$/;"	t	typeref:enum:__anon4
+spkChangePosition	.\MotorDrive.c	/^static UB spkChangePosition;                \/\/ spkPositionCt$B$,$3$NCM$N;~=PNOJQ99=`Hw$9$k(B$/;"	v	file:
+spkOutChangeFunc	.\MotorDrive.c	/^static void ( *spkOutChangeFunc )( void ) = NULL_PTR;   \/\/$B<!$K=PNO$9$k4X?t$X$N%]%$%s%?(B$/;"	v	file:
+spkOutTrisRequestFlug	.\MotorDrive.c	/^static UB spkOutTrisRequestFlug; 				\/\/ spk TRISx$B$NJQ2=I,MW$J;~$N=PNOMW5a%U%i%0(B$/;"	v	file:
+spkPositionCt	.\MotorDrive.c	/^static UB spkPositionCt;                    \/\/ SPK$B%Q%k%9%$%s%?!<%P%k=*N;$^$G$N%+%&%s%H(B0$B!A(B3$/;"	v	file:
+spkReqVrsCheckBit	.\MotorDrive.c	/^static UB spkReqVrsCheckBit; 					\/\/ spk Vrs$B%A%'%C%\/MW5a%U%i%0(B$/;"	v	file:
+stat	.\mcc_generated_files\spi.c	/^    uint8_t stat;$/;"	m	struct:__anon3	file:
+targetPosition	.\MotorDrive.c	/^static H  targetPosition[ MOTOR_NUM ];					\/\/ $BL\\I80LCV(B$/;"	v	file:
+timer1ReloadVal	.\mcc_generated_files\tmr1.c	/^volatile uint16_t timer1ReloadVal;$/;"	v
+vrsCountValue	.\MotorDrive.c	/^static UB vrsCountValue[ MOTOR_NUM ]; 		\/\/ Vcomp$B1[$($N(BVrs$BK\\?t%+%&%s%HCM(B IF$B$G%+%&%s%H(B$/;"	v	file:
