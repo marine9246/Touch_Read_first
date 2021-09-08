@@ -1,8 +1,9 @@
-�G�ǃf���T���v���@����FW�Ƀg���N����p�̃f�o�b�O�I�v�V������ǉ�
+触読デモサンプル初期FWにトルク測定用デバッグオプション追加
 
-�@�@TMR2_Interrupt_SPK
-�A�@SetMotorStartSPK
-�B  SetDataTRISxWork_SPK_OPEN
+①　TMR2_Interrupt_SPK
+②　SetMotorStartSPK
+③  SetDataTRISxWork_SPK_OPEN
 
-�G��ON�@SW�ŗ㎥ON
-SPK�L�薳��SW�ŗ㎥����SPK�L�薳���I��
+デバッグオプション有効な場合
+触読ON　SWで励磁ON
+SPK有り無しSWで励磁中にSPK有り無し選択
